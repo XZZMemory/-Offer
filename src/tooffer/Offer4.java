@@ -1,0 +1,48 @@
+package tooffer;
+
+public class Offer4 {
+    public static void main(String []args)
+    {
+        char[] string =new char[30];
+        System.out.println(string.length);
+        char[] c="we are happy.".toCharArray();
+        for(int i=0;i<c.length;i++)
+        {
+            string[i]=c[i];
+        }
+        System.out.println(string.length);
+        System.out.println(string);
+        replaceBlank(string);
+        System.out.println(string);
+    }
+    public  static void replaceBlank(char string[])
+    {
+        int originLength=0;
+        int postlength=0;
+        int blank=0;
+        for(int i=0;string[i]!='\0';i++)
+        {
+            originLength++;
+            if (string[i]==' ')
+                blank++;
+        }
+        postlength=originLength+blank*2;
+        if(postlength>originLength)
+        {
+            while(originLength>=0)
+            {
+                if(string[originLength]==' ')
+                {
+                    string[postlength--]='0';
+                    string[postlength--]='2';
+                    string[postlength--]='%';
+                }
+                else
+                    string[postlength--]=string[originLength];
+                originLength--;
+            }
+        }
+
+        System.out.println(string);
+    }
+}
