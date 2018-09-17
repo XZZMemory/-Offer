@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Offer12打印1到最大的n位数 {
     public static void main(String[] args)
     {
-        System.out.println("请输入整数n:");
+        System.out.println("请输入多少位数-n:");
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
         Print1ToMaxOfNDigits(n);
