@@ -5,8 +5,8 @@ import java.lang.reflect.Array;
 public class Offer12任意两个整数的加法 {
     public static void main(String[] args)
     {
-        char[] num1="99".toCharArray();
-        char[] num2="-199".toCharArray();
+        char[] num1="-00009".toCharArray();
+        char[] num2="-000199".toCharArray();
         char[] result=Add(num1,num2);
         Print(result);
     }
@@ -17,15 +17,27 @@ public class Offer12任意两个整数的加法 {
         if (num2==null||num2.length==0)
             return num1;
         //num1和num2均不为空！
-        int flag1=Check(num1);
+        int flag1=Check(num1);//flag=-1 负数 ；flag=0，数据出错；flag=1 正数
         int flag2=Check(num2);
-        if (flag1==0||flag2==0)
+        if (flag1==0||flag2==0)//flag=0,字符串出错，如"12uiou"
             return null;
+        //分三种情况 1两个负数相加 2-两个正数相加 3-一正一负相加
         if(flag1*flag2>0)//同号
-            return AddPositiveNum(num1,num2);
-        else//异号
         {
-            int max=GetMax(DeletePlusMinus(num1),DeletePlusMinus(num2));
+            if (flag1 == -1)//1-两个负数相加（当做两个正数相加，结果加负号）
+            {
+                char[] result=AddPositiveNum(DeletePlusMinus(num1),DeletePlusMinus(num2));
+                char[] finalresult=new char[result.length+1];
+                finalresult[0]='-';
+                System.arraycopy(result,0,finalresult,1,result.length);
+                return finalresult;
+            }
+            else//2-两个正数相加
+                return AddPositiveNum(num1, num2);
+        }
+        else//3-一正一负相加 异号
+        {
+            int max=GetMax(DeleteHead0(DeletePlusMinus(num1)),DeleteHead0(DeletePlusMinus(num2)));
             if (max==0)
             {
                 char[] result={'0'};
@@ -33,63 +45,38 @@ public class Offer12任意两个整数的加法 {
             }
             else
             {
-                char[] num1_=DeletePlusMinus(num1);
-                char[] num2_=DeletePlusMinus(num2);
-                if (max==1)//num1大,位数多
+                char[] num1_=DeleteHead0(DeletePlusMinus(num1));
+                char[] num2_=DeleteHead0(DeletePlusMinus(num2));
+                if (max==1)//num1大,位数多  num1=-9 num2=3;
                 {
-                    if (num1[0]=='-')//num1是一个负值,num2是正值
+                    if (num1[0]=='-')//num1大，且大值是负数，那结果一定是负数（当做两个正数相减）
                     {
-                        char[] result_=Subtract(num1_,num2);
-                        char[] result=new char[result_.length+1];
-                        result[0]='-';
-                        System.arraycopy(result_,0,result,1,result_.length);
-                        return  result;
+                        char[] result=SubtractOfPositiveNum(num1_,num2);
+                        char[] finalResult=new char[result.length+1];
+                        finalResult[0]='-';
+                        System.arraycopy(result,0,finalResult,1,result.length);
+                        return  finalResult;
                     }
-                    else
-                        return Subtract(num1_,num2_);
+                    else//num1=9,num2=-3//就是9-3 结果是正数
+                        return SubtractOfPositiveNum(num1_,num2_);
                 }
-                else //num2大
+                else //num2大 num1=3 num2=-9
                 {
-                    if (num2[0]=='-')//num2大，且num2是正值，num1是负值
+                    if (num2[0]=='-')//num2大，且num2是正值，num1是负值 结果是负数
                     {
-                        char[] result_=Subtract(num2_,num1_);
-                        char[] result=new char[result_.length+1];
+                        char[] result=SubtractOfPositiveNum(num2_,num1_);
+                        char[] finalResult=new char[result.length+1];
                         result[0]='-';
-                        System.arraycopy(result_,0,result,1,result_.length);
-                        return  result;
+                        System.arraycopy(result,0,finalResult,1,result.length);
+                        return  finalResult;
                     }
                     else //num2大，但num2是正值
-                        return Subtract(num2_,num1_);
+                        return SubtractOfPositiveNum(num2_,num1_);
                 }
             }
         }
     }
-    //删掉数据刚开始的正负号，-314 -》314  +45 -》45
-    public static char[] DeletePlusMinus(char[] num)
-    {
-        if (num[0]=='-'||num[0]=='+') {
-            char[] result = new char[num.length - 1];
-            System.arraycopy(num,1,result,0,result.length);
-            return result;
-        }
-        return num;
-    }
-    public static char[] AddTwoSimpleNum(char[] num1,char[] num2)
-    {
-        if (num1[0]=='-')
-        {
-            char[] num1_=new char[num1.length-1];
-            char[] num2_=new char[num2.length-1];
-            System.arraycopy(num1,1,num1_,0,num1.length-1);
-            System.arraycopy(num2,1,num2_,0,num2.length-1);
-            char[] result1=AddPositiveNum(num1_,num2_);
-            char[] result=new char[num1.length>num2.length?num1.length+1:num2.length+1];
-            result[0]='-';
-            System.arraycopy(result1,0,result,1,result1.length);
-            return result;
-        }
-        return AddPositiveNum(num1,num2);
-    }
+
     public static char[] AddPositiveNum(char[] num1,char[] num2)
     {
         char[] num1_=DeletePlusMinus(num1);
@@ -139,7 +126,8 @@ public class Offer12任意两个整数的加法 {
         return data;
 
     }
-    public static char[] Subtract(char[] num1,char[] num2)
+    //减，两个正数相减
+    public static char[] SubtractOfPositiveNum(char[] num1,char[] num2)
     {//num1：正树，num2-负数 1大 2小
         char []result=new char[num1.length];//记录结果
         int index1=num1.length-1;
@@ -190,7 +178,7 @@ public class Offer12任意两个整数的加法 {
         char[] data =DeleteHead0(result);
         return data;
     }
-    //正值 返回1 负值返回-1  数值错误返回0
+    //检查一个数组，存储的是正数，还是负数正值 返回1 负值返回-1  数值错误返回0
     public static int Check(char[] num)
     {
         if (num==null||num.length==0)
@@ -215,6 +203,7 @@ public class Offer12任意两个整数的加法 {
         }
         return flag;
     }
+    //输出一个字符数组
     public static void Print(char[] num)
     {
         if (num==null||num.length==0)
@@ -227,6 +216,7 @@ public class Offer12任意两个整数的加法 {
             System.out.print(num[i]);
         }
     }
+    //两个数中哪个数字比较大，-88 和9999 9999更大，num1大，返回1 ；num2大，返回-1，相等返回0
     public static int  GetMax(char[] num1,char[] num2)
     {
         if (num1.length>num2.length)
@@ -242,6 +232,7 @@ public class Offer12任意两个整数的加法 {
         }
         return 0;
     }
+    //如字符数组是00009，即9，经过这个函数处理，删除0 变为9
     public static char[] DeleteHead0(char[] num)
     {
         int index=0;
@@ -254,5 +245,15 @@ public class Offer12任意两个整数的加法 {
         System.arraycopy(num,index,data,0,data.length);
 
         return data;
+    }
+    //删掉数据刚开始的正负号，-314 -》314  +45 -》45
+    public static char[] DeletePlusMinus(char[] num)
+    {
+        if (num[0]=='-'||num[0]=='+') {
+            char[] result = new char[num.length - 1];
+            System.arraycopy(num,1,result,0,result.length);
+            return result;
+        }
+        return num;
     }
 }
