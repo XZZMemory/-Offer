@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 //robost 代码的鲁棒性，程序能够判断是否合乎规范要求，并对不合要求的输入予以合理的处理
 //访问单向链表倒数第k个节点
-//s思考：期待的揭解法是只遍历链表一次
+//s思考：期待的解法是只遍历链表一次
 public class Offer15链表中倒数第k个节点 {
     public static void main(String[] args)
     {

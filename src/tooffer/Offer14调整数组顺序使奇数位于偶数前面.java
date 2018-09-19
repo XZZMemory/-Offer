@@ -4,7 +4,7 @@ package tooffer;
 //                                            使得数组中的数按照大小分为两部分，所有的负数均位于非负数的前面
 //                                            能被3整除的数都在不能被3整除的数前面
 //若需要实现这三个函数，则考虑扩展性，在这个模式下方便的把已有的解决方案扩展到同类型的问题上
-//*********`解耦，可以提高代码的重用性**************
+//********  可扩展性*`解耦，可以提高代码的重用性**************
 public class Offer14调整数组顺序使奇数位于偶数前面 {
     public static void main(String[] args)
     {
@@ -17,9 +17,9 @@ public class Offer14调整数组顺序使奇数位于偶数前面 {
         int pEnd=number.length-1;
         for(;pBegin<pEnd;pBegin++,pEnd--)
         {
-            while((pBegin<pEnd)&&(FunOf3(number,pBegin)))
+            while((pBegin<pEnd)&&(FunEven(number,pBegin)))
                 pBegin++;
-            while ((pBegin<pEnd)&&(!FunOf3(number,pEnd)))
+            while ((pBegin<pEnd)&&(!FunEven(number,pEnd)))
                 pEnd--;
             if (pBegin<pEnd)
             {
@@ -33,7 +33,7 @@ public class Offer14调整数组顺序使奇数位于偶数前面 {
     //是不是偶数
     public static boolean FunEven(int[] number,int i)
     {
-        if(number[i]%2==0)
+        if((number[i]&1)==0)
             return true;
         return false;
     }

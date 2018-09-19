@@ -29,7 +29,7 @@ public class Offer12打印1到最大的n位数 {
         char[] number=new char[n];
         for (int i=0;i<number.length;i++)
             number[i]='0';
-        while(!Increment(number))
+        while(!Increment(number))//当没有达到最大值时 函数Increment实现number加1并返回true，若达到最大值，则返回false
         {
             PrintNumber(number);
             System.out.println("  ");
@@ -54,7 +54,6 @@ public class Offer12打印1到最大的n位数 {
                 {
                     nSum-=10;
                     nTakeOver=1;
-                    char n=(char)(nSum);
                     number[i]=(char) (nSum+(int)'0');
                 }
             }
