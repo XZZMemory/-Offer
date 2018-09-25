@@ -9,9 +9,8 @@ public class Offer17合并两个排序的列表 {
     {
         int[] number1={1,3,5,6,7};
         int[] number2={2,5,8,9};
-        LinkList linkList=new LinkList();
-        NodeInt head1=linkList.CreatLinklistWithIntData(number1);
-        NodeInt head2=linkList.CreatLinklistWithIntData(number2);
+        NodeInt head1=LinkList.CreatLinklistWithIntData(number1);
+        NodeInt head2=LinkList.CreatLinklistWithIntData(number2);
         NodeInt head=new NodeInt();
         head=Merge(head1,head2);
         LinkList.TraversalOfLinklistWithHeadWithIntData(head);

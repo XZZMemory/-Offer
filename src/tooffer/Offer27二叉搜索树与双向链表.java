@@ -7,8 +7,7 @@ public class Offer27二叉搜索树与双向链表 {
     public static void main(String[] args)
     {
         BinaryTreeNode biTree=new BinaryTreeNode();
-        BiTree biTreeClass=new BiTree();
-        biTree=biTreeClass.CreatTree5();
+        biTree=BiTree.CreatTree5();
         Convert(biTree);
         while(head!=null)
         {
@@ -27,7 +26,7 @@ public class Offer27二叉搜索树与双向链表 {
         biTree.left=biLast;
         if (biLast==null)
             head=biTree;
-        if(biLast!=null)
+        else
             biLast.right=biTree;
         biLast=biTree;
         //右子树

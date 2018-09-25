@@ -3,7 +3,7 @@ package utils;
 public class ComplexNode {
     public char info;
     public ComplexNode next;
-    public ComplexNode Sibling;
+    public ComplexNode sibling;
     public static ComplexNode CreatComplexNode()
     {
         ComplexNode head=new ComplexNode();
@@ -13,19 +13,19 @@ public class ComplexNode {
         ComplexNode e=new ComplexNode();
         head.info='A';
         head.next=b;
-        head.Sibling=c;
+        head.sibling=c;
         b.info='B';
         b.next=c;
-        b.Sibling=e;
+        b.sibling=e;
         c.info='C';
         c.next=d;
-        c.Sibling=null;
+        c.sibling=null;
         d.info='D';
         d.next=e;
-        d.Sibling=b;
+        d.sibling=b;
         e.info='E';
         e.next=null;
-        e.Sibling=null;
+        e.sibling=null;
         return head;
     }
     public static void TraversalOfComplexNode(ComplexNode head)
@@ -44,10 +44,10 @@ public class ComplexNode {
                 System.out.print(p.next.info+" ");
             else
                 System.out.print("空 ");
-            if (p.Sibling==null)
+            if (p.sibling==null)
                 System.out.println("空");
             else
-                System.out.println(p.Sibling.info);
+                System.out.println(p.sibling.info);
             p=p.next;
         }
     }

@@ -2,15 +2,14 @@ package tooffer;//定义两棵二叉树A和B，判断B是不是A的子结构
 import utils.*;
 public class Offer18树的子结构 {
     public static void main(String[] args) {
-        BiTree biTreeClass=new BiTree();
         BinaryTreeNode biTree1=new BinaryTreeNode();
         BinaryTreeNode biTree2=new BinaryTreeNode();
-        biTree1=biTreeClass.CreatTree1();
-        biTree2=biTreeClass.CreatTree2();
+        biTree1=BiTree.CreatTree1();
+        biTree2=BiTree.CreatTree2();
         System.out.println(HasSubTree(biTree1,biTree2));
 
     }
-    //s首先找到与树2根节点一样的节点，然后判断之后的节点是否一样
+    //首先找到与树2根节点一样的节点，然后判断之后的节点是否一样
     public  static boolean HasSubTree(BinaryTreeNode BiTree1,BinaryTreeNode BiTree2)
     {
         boolean result=false;

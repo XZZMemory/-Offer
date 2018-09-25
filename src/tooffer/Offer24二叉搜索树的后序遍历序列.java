@@ -5,9 +5,8 @@ public class Offer24二叉搜索树的后序遍历序列 {
     {
         int[] sequence={5,7,6,9,11,10,8};
         int[] sequence2={7,4,6,5};
-        boolean result=VerifySquenceOfBST(sequence,0,sequence.length-1);
+        boolean result1=VerifySquenceOfBST(sequence,0,sequence.length-1);
         boolean result2=VerifySquenceOfBST(sequence2,0,sequence2.length-1);
-
     }
     public static boolean VerifySquenceOfBST(int sequence[],int start,int end)
     {

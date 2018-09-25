@@ -3,21 +3,20 @@ package tooffer;
 import utils.LinkList;
 import utils.Node;
 
-//输入一个链表的头结点，反转该链表并输出反转后的链表节点内容
+/*输入一个链表的头结点，反转该链表并输出反转后的链表节点内容
+* 链表带头结点*/
 public class Offer16反转链表 {
-
     public static void main(String[] args)
     {
-        LinkList linkList=new LinkList();
         Node head=new Node();
-        head=linkList.creatList();
-        linkList.TraversalOfLinklistWithHead(head);
+        head=LinkList.creatList();
+        LinkList.TraversalOfLinklistWithHead(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
         Node head2=new Node();
         head2=Reverse(head);
         if(head2==null)
             return;
         System.out.println("反转后的链表为：");
-        linkList.TraversalofLinklistWithoutHead(head2);
+        LinkList.TraversalofLinklistWithoutHead(head2);
     }
     public static Node Reverse(Node head)
     {

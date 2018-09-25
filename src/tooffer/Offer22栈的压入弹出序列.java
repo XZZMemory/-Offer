@@ -7,22 +7,23 @@ public class Offer22栈的压入弹出序列 {
         int[] pop={4,5,2,3,1};
         System.out.println(IsPopOrder(push,pop));
     }
-    public static boolean IsPopOrder(int[] push,int[] pop)
+    //使用java自带的栈
+    public  static boolean IsPopOrder(int[] push,int[] pop)
     {
-        boolean IsPossible=false;
-        Stack stack=new Stack();
+        boolean isPossible=true;
+        java.util.Stack<Integer> stack=new java.util.Stack<Integer>();
         int j=0;
         for (int i=0;i<push.length;i++)
         {
-            stack.stack[++stack.top]=push[i];
-            while((stack.top>-1)&&(stack.stack[stack.top]==pop[j]))
+            stack.push(push[i]);
+            while (stack.peek()==pop[j])
             {
-                stack.top--;
+                stack.pop();
                 j++;
             }
         }
-        if (stack.top==-1)
-            IsPossible=true;
-        return  IsPossible;
+        if (stack.empty())
+            return true;
+        return false;
     }
 }

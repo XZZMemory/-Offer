@@ -22,8 +22,38 @@ public class BiTree {
         {
             System.out.println("结束节点创建");
             return null;}
-
-
+    }
+    public static BinaryTreeNode CreatTree1()
+    {
+        BinaryTreeNode BiTree=new BinaryTreeNode();
+        BinaryTreeNode left1=new BinaryTreeNode();
+        BinaryTreeNode right1=new BinaryTreeNode();
+        BinaryTreeNode left2=new BinaryTreeNode();
+        BinaryTreeNode right2=new BinaryTreeNode();
+        BinaryTreeNode left3=new BinaryTreeNode();
+        BinaryTreeNode right3=new BinaryTreeNode();
+        BiTree.info=8;
+        BiTree.left=left1;
+        BiTree.right=right1;
+        right1.info=7;
+        right1.left=null;
+        right1.right=null;
+        left1.info=8;
+        left1.left=left2;
+        left1.right=right2;
+        left2.info=9;
+        left2.left=null;
+        left2.right=null;
+        right2.info=2;
+        right2.left=left3;
+        right2.right=right3;
+        left3.info=4;
+        left3.right=null;
+        left3.left=null;
+        right3.info=7;
+        right3.left=null;
+        right3.right=null;
+        return BiTree;
     }
     public static BinaryTreeNode CreatTree2()
     {
@@ -64,38 +94,6 @@ public class BiTree {
         right2.left=null;
         right2.right=null;
         return biTree;
-    }
-    public static BinaryTreeNode CreatTree1()
-    {
-        BinaryTreeNode BiTree=new BinaryTreeNode();
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
-        BinaryTreeNode left2=new BinaryTreeNode();
-        BinaryTreeNode right2=new BinaryTreeNode();
-        BinaryTreeNode left3=new BinaryTreeNode();
-        BinaryTreeNode right3=new BinaryTreeNode();
-        BiTree.info=8;
-        BiTree.left=left1;
-        BiTree.right=right1;
-        right1.info=7;
-        right1.left=null;
-        right1.right=null;
-        left1.info=8;
-        left1.left=left2;
-        left1.right=right2;
-        left2.info=9;
-        left2.left=null;
-        left2.right=null;
-        right2.info=2;
-        right2.left=left3;
-        right2.right=right3;
-        left3.info=4;
-        left3.right=null;
-        left3.left=null;
-        right3.info=7;
-        right3.left=null;
-        right3.right=null;
-        return BiTree;
     }
     public static BinaryTreeNode CreatTree4()
     {

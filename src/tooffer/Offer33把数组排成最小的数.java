@@ -2,7 +2,7 @@ package tooffer;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-
+//
 public class Offer33把数组排成最小的数 {
 
     public static void main(String[] args){
@@ -14,6 +14,8 @@ public class Offer33把数组排成最小的数 {
         int[] array=new int[temp.length];
         for (int i=0;i<array.length;i++)
             array[i]=Integer.parseInt(temp[i]);
+        /*
+        * 输入一个正整数数组，把数组中所有数字连接起来排成一个数，使拼接的数字是所有数字中最小的一个{3,32,321} -> 321323 */
          System.out.println(PrintMinNumber2(array));
 
     }

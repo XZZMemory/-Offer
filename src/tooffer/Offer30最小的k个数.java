@@ -1,9 +1,7 @@
-//输入n个数，找出其中最小的k个数
+//输入n个数，找出其中最小的k个数,输出的最小的几个数不要求排序
 //一种常规的解法：对这几个数进行排序，排在前面的K个数就是最小的k个数
 package tooffer;
-
 import java.util.Random;
-
 public class Offer30最小的k个数 {
     public static void main(String[] args)
     {
@@ -43,8 +41,7 @@ public class Offer30最小的k个数 {
         }
         int middle=(int)((start+end)/2);
         Random random=new Random();
-
-        int m=random.nextInt(end-start)+start;
+        int m=random.nextInt(end-start+1)+start;
         int number=numbers[m];
         while(start<end)
         {

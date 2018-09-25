@@ -7,9 +7,6 @@ public class Offer28字符串的排列  {
         if (str==null)
             return;
         char[] item=str.toCharArray();
-        int n=str.length();
-        char nn=item[1];
-        int nnn=item.length;
         Permutation(item,0);
     }
     public static void Permutation(char[] item,int begin)

@@ -1,21 +1,16 @@
 package tooffer;
 
 import utils.BiTree;
-import utils.BiTreeQueue;
 import utils.BinaryTreeNode;
-import utils.LinkList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class Offer60把二叉树打印成多行 {
     public static void main(String[] args)
     {
-        BiTree biTreeClass =new BiTree();
-        BinaryTreeNode biTree=new BinaryTreeNode();
-        biTree=biTreeClass.CreatTree4();
+        BinaryTreeNode biTree=BiTree.CreatTree4();
         HierarchicalTraversalOfBiTree(biTree);
     }
     public static void HierarchicalTraversalOfBiTree(BinaryTreeNode biTree)

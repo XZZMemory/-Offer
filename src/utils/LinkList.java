@@ -1,7 +1,25 @@
 package utils;
 
 public class LinkList {
+    //带头节点
     public static Node creatList()
+    {
+        char[] string="abde".toCharArray();
+        Node head=new Node();
+        Node p=new Node();
+        head=p;
+        Node q;
+        for (int i=0;i<string.length;i++)
+        {
+            q=new Node();
+            q.info=string[i];
+            q.next=null;
+            p.next=q;
+            p=q;
+        }
+        return head;
+    }
+    public static Node creatListCircle()
     {
         char[] string="abcde".toCharArray();
         Node head=new Node();
@@ -16,6 +34,7 @@ public class LinkList {
             p.next=q;
             p=q;
         }
+        p.next=head;
         return head;
     }
     //创建的是带头结点的链表，链表数据是int型数据
