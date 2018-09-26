@@ -18,9 +18,9 @@ public class Offer41和为s的两个数字VS和为s的连续正数序列 {
         {
             currentsum=data[start]+data[end];
             if (currentsum<sum)
-                start+=1;
+                start--;
             else  if (currentsum>sum)
-                end-=1;
+                end--;
             else
             {
                 num[0]=data[start];
@@ -30,7 +30,7 @@ public class Offer41和为s的两个数字VS和为s的连续正数序列 {
         }
         num=null;
     }
-    //输入一个正数，打印出所有和为s的连续正数序列
+    //输入一个正数，打印出所有和为s的连续正数序列 1+2+3+4+5=4+5+6=7+8=15
     public static void FindContinuousSequence(int sum)
     {
         if (sum<3)

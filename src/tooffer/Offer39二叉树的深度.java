@@ -11,8 +11,6 @@ public class Offer39二叉树的深度 {
         //root.right=null;测试2，只有一个根节点
         int depth=TreeDepth(root);
         System.out.println("树的深度是："+depth);
-
-
     }
     public static int TreeDepth(BinaryTreeNode root)
     {

@@ -3,7 +3,7 @@ package tooffer;
 import utils.LinkList;
 import utils.Node;
 
-/*输入一个链表的头结点，反转该链表并输出反转后的链表节点内容
+/*输入一个链表的头结点，反转该链表并输出反转后的链表节点内容，不需创建新的节点复制链表再进行反转
 * 链表带头结点*/
 public class Offer16反转链表 {
     public static void main(String[] args)

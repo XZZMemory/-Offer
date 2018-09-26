@@ -4,7 +4,7 @@ package tooffer;
 public class Offer34丑数 {
     public static void main(String[] args)
     {
-        int index=4;
+        int index=100;
         System.out.println("第"+index+"个丑数是："+GetUglyNumber(index));
     }
     public static int GetUglyNumber(int index)
@@ -20,11 +20,11 @@ public class Offer34丑数 {
         {
             int min=Min(uglyArray[m2_index]*2,uglyArray[m3_index]*3,uglyArray[m5_index]*5);
             uglyArray[i]=min;
-            if (uglyArray[m2_index]*2==min)
+            if (uglyArray[m2_index]*2<=min)
                 m2_index++;
-            if (uglyArray[m3_index]*3==min)
+            if (uglyArray[m3_index]*3<=min)
                 m3_index++;
-            if (uglyArray[m5_index]*5==min)
+            if (uglyArray[m5_index]*5<=min)
                 m5_index++;
         }
         return uglyArray[index];

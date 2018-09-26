@@ -1,14 +1,16 @@
 package tooffer;
-//二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一颗平衡二叉树
-import utils.*;
-public class Offer392判断一棵树是不是平衡二叉树 {
+
+import utils.BiTree;
+import utils.BinaryTreeNode;
+
+public class Offer39判断一棵树是不是平衡二叉树 {
     public static void main(String[] args)
     {
         BiTree biTree=new BiTree();
         BinaryTreeNode root=biTree.CreatTree1();
         //root=null;测试用例1-根节点为空
-        //root.left=null;测试用例2，只有一个根节点
-        //root.right=null;测试用例2
+        //root.left=null;//测试用例2，只有一个根节点
+        root.right=null;//测试用例2
         boolean result=IsBalannced(root);
         System.out.println(result);
     }
@@ -42,8 +44,29 @@ public class Offer392判断一棵树是不是平衡二叉树 {
             //return true;
         }
         //IsBalannced(root.left,depth);
-return 0;
+        return 0;
 
+    }
+    //不对，depth传不过去，程序栈之间无法共享，**********
+    public static boolean isBalanced2(BinaryTreeNode root)
+    {
+        int depth = 0;
+        return isBalanced2(root,depth);      }
+    public static boolean isBalanced2(BinaryTreeNode root,int depth)
+    {
+        if(root == null){
+            depth = 0;
+            return true;
+        }
+        int left = 0,right = 0;
+        if(isBalanced2(root.left,left) && isBalanced2(root.right,right)){
+            int diff = left-right;
+            if(diff <= 1 && diff >= -1){
+                depth = 1+(left > right?left : right);
+                return true;
+            }
+        }
+        return false;
     }
 
 }

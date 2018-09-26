@@ -3,7 +3,7 @@ package tooffer;
 import utils.LinkList;
 import utils.NodeInt;
 
-public class Offer57删除链表中重复的节点 {
+public class  Offer57删除链表中重复的节点 {
     public static void main(String[] args)
     {
         int[] data={1,2,3,3,3,4,4,5};//1，2，5

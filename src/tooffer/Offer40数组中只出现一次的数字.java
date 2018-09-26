@@ -6,11 +6,9 @@ public class Offer40数组中只出现一次的数字 {
     {
         int[]data={2,4,3,6,3,2,5,5};
         int[]num=new int[2];
-        FindNumsAppearONce(data,num);
-
-
+        FindNumsAppearOnce(data,num);
     }
-    public static void FindNumsAppearONce(int[] data,int[] num)
+    public static void FindNumsAppearOnce(int[] data,int[] num)
     {
         int result=0;
         for (int i=0;i<data.length;i++)
