@@ -2,53 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb212ad7-501f-410f-b4b6-8d6669e5b0bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tooffer/Offer15判断一个单向链表是否形成了环形结构.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tooffer/Offer15求链表的中间节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tooffer/Offer21包含min函数的栈使用java原本有的Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer15链表中倒数第k个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer15链表中倒数第k个节点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer16反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer16反转链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer17合并两个排序的列表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer17合并两个排序的列表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer18树的子结构.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer18树的子结构.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer19二叉树的镜像.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer19二叉树的镜像.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer21包含min函数的栈.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer21包含min函数的栈.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer22栈的压入弹出序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer22栈的压入弹出序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer23从上往下打印二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer23从上往下打印二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer24二叉搜索树的后序遍历序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer24二叉搜索树的后序遍历序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer25二叉树中和为某一路径的值.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer25二叉树中和为某一路径的值.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer60把二叉树打印成多行.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer60把二叉树打印成多行.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer7用两个栈实现队列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer7用两个栈实现队列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTreeQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/utils/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/Queue60题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer15链表中倒数第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer15链表中倒数第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer16反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer16反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer17合并两个排序的列表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer17合并两个排序的列表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer18树的子结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer18树的子结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer19二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer19二叉树的镜像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer21包含min函数的栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer21包含min函数的栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer22栈的压入弹出序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer22栈的压入弹出序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer23从上往下打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer23从上往下打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer24二叉搜索树的后序遍历序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer24二叉搜索树的后序遍历序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer25二叉树中和为某一路径的值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer25二叉树中和为某一路径的值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer26复杂链表的复制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer26复杂链表的复制.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer27二叉搜索树与双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer27二叉搜索树与双向链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer28字符串的排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer28字符串的排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer29数组中出现次数超过一半的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer29数组中出现次数超过一半的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer30最小的k个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer30最小的k个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer33把数组排成最小的数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer33把数组排成最小的数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer60把二叉树打印成多行.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer60把二叉树打印成多行.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer7用两个栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer7用两个栈实现队列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BiTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BiTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BiTreeQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ComplexNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ComplexNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Queue60题.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer33把数组排成最小的数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer33把数组排成最小的数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/tooffer/Offer7用两个队列实现一个栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Queue.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,45 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Offer26复杂链表的复制.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer26复杂链表的复制.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Offer27二叉搜索树与双向链表.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer27二叉搜索树与双向链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Offer28字符串的排列.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer28字符串的排列.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Offer29数组中出现次数超过一半的数字.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer29数组中出现次数超过一半的数字.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-              <folding>
-                <element signature="method#Partition#0;class#Offer29数组中出现次数超过一半的数字#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Offer30最小的k个数.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tooffer/Offer30最小的k个数.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,11 +55,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offer33把数组排成最小的数.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Offer33把数组排成最小的数.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tooffer/Offer33把数组排成最小的数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer34丑数.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer34丑数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="20" selection-start-line="31" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer4替换空格.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer4替换空格.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer7用两个队列实现一个栈.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#320#0" expanded="true" />
+                <element signature="e#398#407#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +99,30 @@
       <file leaf-file-name="ComplexNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/ComplexNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="615">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer8旋转数组的最小数字.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer8旋转数组的最小数字.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer7用两个栈实现队列.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个栈实现队列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="48" column="25" selection-start-line="48" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#240#249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,13 +166,14 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer21包含min函数的栈.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer25二叉树中和为某一路径的值.java" />
-        <option value="$PROJECT_DIR$/src/utils/ComplexNode.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer26复杂链表的复制.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer27二叉搜索树与双向链表.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer28字符串的排列.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer29数组中出现次数超过一半的数字.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer30最小的k个数.java" />
         <option value="$PROJECT_DIR$/src/tooffer/Offer33把数组排成最小的数.java" />
+        <option value="$PROJECT_DIR$/src/utils/ComplexNode.java" />
+        <option value="$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java" />
       </list>
     </option>
   </component>
@@ -274,31 +250,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Offer30最小的k个数">
+  <component name="RunManager" selected="Application.Offer7用两个队列实现一个栈">
     <configuration name="Offer15判断一个单向链表是否形成了环形结构" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tooffer.Offer15判断一个单向链表是否形成了环形结构" />
-      <module name="剑指Offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tooffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Offer25二叉树中和为某一路径的值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tooffer.Offer25二叉树中和为某一路径的值" />
-      <module name="剑指Offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tooffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Offer26复杂链表的复制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tooffer.Offer26复杂链表的复制" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -332,6 +286,28 @@
     </configuration>
     <configuration name="Offer30最小的k个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tooffer.Offer30最小的k个数" />
+      <module name="剑指Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tooffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Offer4替换空格" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tooffer.Offer4替换空格" />
+      <module name="剑指Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tooffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Offer7用两个队列实现一个栈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tooffer.Offer7用两个队列实现一个栈" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -383,19 +359,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Offer25二叉树中和为某一路径的值" />
-      <item itemvalue="Application.Offer26复杂链表的复制" />
       <item itemvalue="Application.Offer27二叉搜索树与双向链表" />
       <item itemvalue="Application.Offer28字符串的排列" />
       <item itemvalue="Application.Offer30最小的k个数" />
+      <item itemvalue="Application.Offer4替换空格" />
+      <item itemvalue="Application.Offer7用两个队列实现一个栈" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer7用两个队列实现一个栈" />
+        <item itemvalue="Application.Offer4替换空格" />
         <item itemvalue="Application.Offer30最小的k个数" />
         <item itemvalue="Application.Offer28字符串的排列" />
         <item itemvalue="Application.Offer27二叉搜索树与双向链表" />
-        <item itemvalue="Application.Offer26复杂链表的复制" />
-        <item itemvalue="Application.Offer25二叉树中和为某一路径的值" />
       </list>
     </recent_temporary>
   </component>
@@ -411,12 +387,12 @@
       <updated>1537105632644</updated>
       <workItem from="1537105638356" duration="17843000" />
       <workItem from="1537326045267" duration="7162000" />
-      <workItem from="1537346095131" duration="20663000" />
+      <workItem from="1537346095131" duration="24236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45668000" />
+    <option name="totallyTimeSpent" value="49241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -431,19 +407,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55982906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55982906" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,6 +510,30 @@
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tooffer/Offer12任意两个整数的加法.java</url>
           <line>79</line>
@@ -546,31 +546,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="34" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer10二进制中1的个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer12打印1到最大的n位数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tooffer/Offer15判断一个单向链表是否形成了环形结构.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -738,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tooffer/Offer15判断一个单向链表是否形成了环形结构.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -797,13 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-637">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -868,17 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个栈实现队列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -890,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="18" column="16" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ComplexNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -957,8 +904,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tooffer/Offer33把数组排成最小的数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="75">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer34丑数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer4替换空格.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer8旋转数组的最小数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ComplexNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个栈实现队列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" column="25" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tooffer/Offer7用两个队列实现一个栈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#320#0" expanded="true" />
+            <element signature="e#398#407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

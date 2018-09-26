@@ -1,7 +1,8 @@
 package tooffer;
 
-import utils.Queue;
-
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Offer7用两个队列实现一个栈 {
@@ -9,8 +10,8 @@ public class Offer7用两个队列实现一个栈 {
     {
         System.out.println("请输入操作，1-进栈，2-出栈，3-退出");
         int[] operationList={1,2,3};
-        Queue queue1=new Queue();
-        Queue queue2=new Queue();
+        Queue<Integer> queue1=new LinkedList<Integer>();
+        Queue<Integer> queue2=new LinkedList<Integer>();
         Scanner scanner=new Scanner(System.in);
         int operation=scanner.nextInt();
         while(operation!=3)
@@ -20,7 +21,6 @@ public class Offer7用两个队列实现一个栈 {
                 switch (operation)
                 {
                     case 1:
-
                         System.out.println("请输入进栈元素:");
                         Scanner scanner2=new Scanner(System.in);
                         int data=scanner2.nextInt();
@@ -61,26 +61,11 @@ public class Offer7用两个队列实现一个栈 {
             System.out.println("队列不存在！");
             return;
         }
-        if (!Queue.IsEmpty(queue1))//队1不空
-        {
-            if (queue1.rear==queue1.queue.length)
-            {
-                System.out.println("栈已满！请先出栈");
-                return;
-            }
-            queue1.queue[++queue1.rear]=data;
-            System.out.println("进栈元素是："+data);
-        }
+        if (!queue1.isEmpty())//队1不空
+            queue1.offer(data);
         else //队列2不空
-        {
-            if (queue2.rear==queue2.queue.length)
-            {
-                System.out.println("栈已满，请先出栈！");
-                return;
-            }
-            queue2.queue[++queue2.rear]=data;
-            System.out.println("进栈元素是："+data);
-        }
+            queue2.offer(data);
+        System.out.println("进栈元素是："+data);
     }
     //出栈
     public static void Pop(Queue queue1,Queue queue2)
@@ -90,30 +75,27 @@ public class Offer7用两个队列实现一个栈 {
             System.out.println("队列不存在");
             return;
         }
-        if (!Queue.IsEmpty(queue1))//队列1不空！
+        if (!queue1.isEmpty())//队列1不空！
         {
-            if (!Queue.IsEmpty(queue2))
+            if (!queue2.isEmpty())
             {
                 System.out.println("对列有误！！");
                 return;
             }
-            while(queue1.front<queue1.rear-1)
-                queue2.queue[++queue2.rear]=queue1.queue[++queue1.front];
-            //queue1.front=queue1.rear-1
-            System.out.println("当前出栈元素是："+queue1.queue[++queue1.front]);//
-            queue1.front=queue1.rear=-1;//初始化，队首队尾均为-1
+            while(queue1.size()>1)//int size()返回元素个数
+                queue2.offer(queue1.poll());
+            System.out.println("当前出栈元素是："+queue1.poll());//
         }
-        else if (!Queue.IsEmpty(queue2))//队列2不空
+        else if (!queue2.isEmpty())//队列2不空
         {
-            if (!Queue.IsEmpty(queue1))
+            if (!queue1.isEmpty())
             {
                 System.out.println("对列有误！");
                 return;
             }
-            while (queue2.front<queue2.rear-1)
-                queue1.queue[++queue1.rear]=queue2.queue[++queue2.front];
-            System.out.println("当前出栈元素是："+queue2.queue[++queue2.front]);
-            queue2.front=queue2.rear=-1;//初始化，队首队尾均为-1
+            while (queue2.size()>1)
+                queue1.offer(queue2.poll());
+            System.out.println("当前出栈元素是："+queue2.poll());
         }
         else
         {
