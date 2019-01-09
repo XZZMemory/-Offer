@@ -4,7 +4,7 @@ public class ComplexNode {
     public char info;
     public ComplexNode next;
     public ComplexNode sibling;
-    public static ComplexNode CreatComplexNode()
+    public static ComplexNode creatComplexNode()
     {
         ComplexNode head=new ComplexNode();
         ComplexNode b=new ComplexNode();
@@ -28,7 +28,7 @@ public class ComplexNode {
         e.sibling=null;
         return head;
     }
-    public static void TraversalOfComplexNode(ComplexNode head)
+    public static void traversalOfComplexNode(ComplexNode head)
     {
         if (head==null)
         {

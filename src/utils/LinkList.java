@@ -2,8 +2,8 @@ package utils;
 
 public class LinkList {
     //带头节点
-    public static Node creatList()
-    {
+    public static Node creatListwithHead()
+     {
         char[] string="abde".toCharArray();
         Node head=new Node();
         Node p=new Node();
@@ -19,6 +19,23 @@ public class LinkList {
         }
         return head;
     }
+    public static Node creatListwithHead(char[] data)
+    {
+        Node head=new Node();
+        Node p=new Node();
+        head=p;
+        Node q;
+        for (int i=0;i<data.length;i++)
+        {
+            q=new Node();
+            q.info=data[i];
+            q.next=null;
+            p.next=q;
+            p=q;
+        }
+        return head;
+    }
+
     public static Node creatListCircle()
     {
         char[] string="abcde".toCharArray();
@@ -38,7 +55,7 @@ public class LinkList {
         return head;
     }
     //创建的是带头结点的链表，链表数据是int型数据
-    public static NodeInt CreatLinklistWithIntData(int[] number)
+    public static NodeInt creatLinklistWithIntData(int[] number)
     {
         NodeInt head=new NodeInt();
         NodeInt p=new NodeInt();
@@ -55,7 +72,7 @@ public class LinkList {
         return head;
 
     }
-    public static void TraversalOfLinklistWithHeadWithIntData(NodeInt head)
+    public static void traversalOfLinklistWithHeadWithIntData(NodeInt head)
     {
         if ((head==null)||(head.next==null))
         {
@@ -70,7 +87,7 @@ public class LinkList {
             p=p.next;
         }
     }
-    public static void TraversalOfLinklistWithHead(Node head)
+    public static void traversalOfLinklistWithHead(Node head)
     {
         if (head==null)
         {
@@ -85,7 +102,7 @@ public class LinkList {
             p=p.next;
         }
     }
-    public static void TraversalofLinklistWithoutHead(Node head)
+    public static void traversalofLinklistWithoutHead(Node head)
     {
         if (head==null)
         {
@@ -94,6 +111,16 @@ public class LinkList {
         }
         Node p=new Node();
         p=head;
+        while(p!=null)
+        {
+            System.out.println(p.info);
+            p=p.next;
+        }
+    }
+    public static void traversalOfLinkListWithHead(Node head)
+    {
+        Node p=new Node();
+        p=head.next;
         while(p!=null)
         {
             System.out.println(p.info);

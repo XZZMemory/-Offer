@@ -2,17 +2,17 @@ package utils;
 import java.util.Scanner;
 
 public class BiTree {
-    public static BinaryTreeNode CreatTree()
+    public static BiTreeNode CreatTree()
     {
         System.out.println("输入1-退出创建节点，其他数字输入节点内容：");
         Scanner sc=new Scanner(System.in);
         int option=sc.nextInt();
         if (option!=1)
         {
-            BinaryTreeNode BiTree=new BinaryTreeNode();
+            BiTreeNode BiTree=new BiTreeNode();
             BiTree.info=option;
             System.out.println("创建节点"+option+"的左子树");
-            BinaryTreeNode left1=new BinaryTreeNode();
+            BiTreeNode left1=new BiTreeNode();
             BiTree.left=CreatTree();
             System.out.println("创建节点"+option+"的右子树");
             BiTree.left=CreatTree();
@@ -23,15 +23,15 @@ public class BiTree {
             System.out.println("结束节点创建");
             return null;}
     }
-    public static BinaryTreeNode CreatTree1()
+    public static BiTreeNode creatTree1()
     {
-        BinaryTreeNode BiTree=new BinaryTreeNode();
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
-        BinaryTreeNode left2=new BinaryTreeNode();
-        BinaryTreeNode right2=new BinaryTreeNode();
-        BinaryTreeNode left3=new BinaryTreeNode();
-        BinaryTreeNode right3=new BinaryTreeNode();
+        BiTreeNode BiTree=new BiTreeNode();
+        BiTreeNode left1=new BiTreeNode();
+        BiTreeNode right1=new BiTreeNode();
+        BiTreeNode left2=new BiTreeNode();
+        BiTreeNode right2=new BiTreeNode();
+        BiTreeNode left3=new BiTreeNode();
+        BiTreeNode right3=new BiTreeNode();
         BiTree.info=8;
         BiTree.left=left1;
         BiTree.right=right1;
@@ -55,11 +55,11 @@ public class BiTree {
         right3.right=null;
         return BiTree;
     }
-    public static BinaryTreeNode CreatTree2()
+    public static BiTreeNode creatTree2()
     {
-        BinaryTreeNode BiTree=new BinaryTreeNode();
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
+        BiTreeNode BiTree=new BiTreeNode();
+        BiTreeNode left1=new BiTreeNode();
+        BiTreeNode right1=new BiTreeNode();
         BiTree.info=8;
         BiTree.left=left1;
         BiTree.right=right1;
@@ -71,13 +71,13 @@ public class BiTree {
         right1.right=null;
         return BiTree;
     }
-    public static BinaryTreeNode CreatTree3()
+    public static BiTreeNode creatTree3()
     {
-        BinaryTreeNode biTree=new BinaryTreeNode();//根节点
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
-        BinaryTreeNode left2=new BinaryTreeNode();
-        BinaryTreeNode right2=new BinaryTreeNode();
+        BiTreeNode biTree=new BiTreeNode();//根节点
+        BiTreeNode left1=new BiTreeNode();
+        BiTreeNode right1=new BiTreeNode();
+        BiTreeNode left2=new BiTreeNode();
+        BiTreeNode right2=new BiTreeNode();
         biTree.info=10;
         biTree.left=left1;
         biTree.right=right1;
@@ -95,13 +95,13 @@ public class BiTree {
         right2.right=null;
         return biTree;
     }
-    public static BinaryTreeNode CreatTree4()
+    public static BiTreeNode creatTree4()
     {
-        BinaryTreeNode biTree=new BinaryTreeNode();
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
-        BinaryTreeNode left2=new BinaryTreeNode();
-        BinaryTreeNode right2=new BinaryTreeNode();
+        BiTreeNode biTree=new BiTreeNode();
+        BiTreeNode left1=new BiTreeNode();
+        BiTreeNode right1=new BiTreeNode();
+        BiTreeNode left2=new BiTreeNode();
+        BiTreeNode right2=new BiTreeNode();
         biTree.info=10;
         biTree.left=left1;
         biTree.right=right1;
@@ -119,11 +119,11 @@ public class BiTree {
         right2.right=null;
         return biTree;
     }
-    public static BinaryTreeNode CreatTree5()
+    public static BiTreeNode creatTree5()
     {
-        BinaryTreeNode biTree=new BinaryTreeNode();
-        BinaryTreeNode left1=new BinaryTreeNode();
-        BinaryTreeNode right1=new BinaryTreeNode();
+        BiTreeNode biTree=new BiTreeNode();
+        BiTreeNode left1=new BiTreeNode();
+        BiTreeNode right1=new BiTreeNode();
         biTree.info=2;
         biTree.left=left1;
         biTree.right=right1;
@@ -135,30 +135,30 @@ public class BiTree {
         right1.right=null;
         return biTree;
     }
-    public static void  PreOrder(BinaryTreeNode BiTree )
+    public static void preOrder(BiTreeNode BiTree )
     {
         if(BiTree==null)
             return;
         System.out.print(BiTree.info);
-        PreOrder(BiTree.left);
-        PreOrder(BiTree.right);
+        preOrder(BiTree.left);
+        preOrder(BiTree.right);
     }
-    public static void InOrder(BinaryTreeNode BiTree)
+    public static void inOrder(BiTreeNode BiTree)
     {
         if (BiTree==null)
             return;
-        InOrder(BiTree.left);
+        inOrder(BiTree.left);
         System.out.println(BiTree.info);
-        InOrder(BiTree.right);
+        inOrder(BiTree.right);
 
     }
-    public static void PostOrder(BinaryTreeNode BiTree)
+    public static void postOrder(BiTreeNode BiTree)
     {
         if (BiTree==null)
             return;
-        PreOrder(BiTree.left);
-        PreOrder(BiTree.right);
-        System.out.println(BiTree.info);
+        postOrder(BiTree.left);
+        postOrder(BiTree.right);
+        System.out.print(BiTree.info+" ");
     }
 }
 
