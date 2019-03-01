@@ -11,7 +11,7 @@ public class 第36数组中的逆序对 {
         System.out.println("数组中的逆序对个数是："+count);
     }
     public static int inverseParisCore(int[] data, int[] copy, int start, int end)
-    {//data数组会改变，两个子数组均是拍好序的
+    {//data数组会改变，两个子数组均是排好序的，两个排序的数组再进行合并
         if (start==end)
             return 0;
         int mid=(start+end)>>1;
@@ -21,6 +21,7 @@ public class 第36数组中的逆序对 {
         int j=end;
         int copyIndex=end;
         int count=0;
+        //两个排序的数组进行合并，在合并的过程中，再统计本次逆序的对数
         while((i>=start)&&(j>=mid+1))
         {
             if (data[i]>data[j])

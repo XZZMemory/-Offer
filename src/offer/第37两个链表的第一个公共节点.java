@@ -6,7 +6,7 @@ import utils.*;
 
 import java.util.Stack;
 
-public class Offer37两个链表的第一个公共节点 {
+public class 第37两个链表的第一个公共节点 {
     public static void main(String[] args)
     {
         int[] data1={1,2,3};
@@ -38,15 +38,12 @@ public class Offer37两个链表的第一个公共节点 {
             return null;
         }
         int nLengthDif=Math.abs(length1-length2);
-        NodeInt pOfHead1=new NodeInt();
-        pOfHead1=head1.next;
-        NodeInt pOfHead2=new NodeInt();
-        pOfHead2=head2.next;
+        NodeInt pOfHead1=head1.next;
+        NodeInt pOfHead2=head2.next;
         if (length1>length2)
         {
             for (int i=1;i<=nLengthDif;i++)
                 pOfHead1=pOfHead1.next;
-
         }
         else
         {
@@ -60,7 +57,6 @@ public class Offer37两个链表的第一个公共节点 {
         }
         sameNode=pOfHead1;
         return sameNode;
-
     }
 
     public static int getListLength(NodeInt head)
@@ -97,15 +93,18 @@ public class Offer37两个链表的第一个公共节点 {
             p2=p2.next;
         }
         NodeInt sameNode=null;
-        NodeInt nodeP1=stack1.pop();
-        NodeInt nodeP2=satck2.pop();
-        while(nodeP1==nodeP2&&(!stack1.isEmpty())&&(!satck2.isEmpty()))
+        /**
+         *    Node  a=new Node(); a不是null，a.next是null
+         */
+        p1=stack1.pop();
+        p2=satck2.pop();
+        while(p1==p2&&(!stack1.isEmpty())&&(!satck2.isEmpty()))
         {
             if (sameNode==null)
                 sameNode = new NodeInt();
-            sameNode=nodeP1;
-            nodeP1=stack1.pop();
-            nodeP2=satck2.pop();
+            sameNode=p1;
+            p1=stack1.pop();
+            p2=satck2.pop();
         }
         return sameNode;
     }
