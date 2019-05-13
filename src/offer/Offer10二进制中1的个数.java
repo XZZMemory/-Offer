@@ -30,6 +30,18 @@ public class Offer10二进制中1的个数 {
         //         当n时正数时，右移的话，最左面补0
         //正>> 左面补0     负>> 左面补1   正负<<  右面补0
     }
+    public static int getN(int data){
+        int num=0;
+        while (data!=0){
+            if (data==1){
+                num++;
+                return num;
+            }
+            num++;
+            data=data/2;
+        }
+        return num;
+    }
     //与1做与运算，然后数字1左移变成10，10与数字做与运算，10<<100，正负数左移补位均是0
     public static int NumOf1b(int n)
     {

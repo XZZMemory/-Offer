@@ -2,38 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb212ad7-501f-410f-b4b6-8d6669e5b0bb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer30最小的k个数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer31连续子数组的最大和.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer32从1到n整数中1出现的次数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer33把数组排成最小的数$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer33把数组排成最小的数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer34丑数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer35删除在第二个字符串中出现的字符.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer35删除字符串中所有重复出现的字符.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer35第一个只出现一次的字符.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer36数组中的逆序对.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer37两个链表的第一个公共节点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer38数字在排序数组中出现的次数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer39二叉树的深度.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer40数组中只出现一次的数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer41和为s的两个数字VS和为s的连续正数序列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer42翻转单词顺序VS左旋转字符串.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer47不用加减乘除做加法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/第二遍/Offer6根据前序中序遍历重建二叉树.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/第二遍/大数问题.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/第二遍/大数问题.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer39二叉树的深度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第39二叉树的深度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer40数组中只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer41和为s的两个数字VS和为s的连续正数序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第41和为s的两个数字VS和为s的连续正数序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer42翻转单词顺序VS左旋转字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer47不用加减乘除做加法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer48把字符串转换成整数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第48把字符串转换成整数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer50树中两个节点的最低公共祖先.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer51数组中重复的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第51数组中重复的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/第36数组中的逆序对.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第36数组中的逆序对.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/第38数字在排序数组中出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第38数字在排序数组中出现的次数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/大数问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/大数问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/timeRecord" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/timeRecord.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/第51数组中重复的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第51数组中重复的数字.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +26,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -59,85 +44,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/第41和为s的两个数字VS和为s的连续正数序列.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/第30最小的k个数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="68" column="46" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Offer43n个骰子的点数.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Offer45圆圈中最后剩下的数字.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="-122">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="method#Add#0;class#第47不用加减乘除做加法#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/第48把字符串转换成整数.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="71" column="15" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="15" />
+            <state relative-caret-position="120">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/第51数组中重复的数字.java">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/CommonTree.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/第51数组中重复的数字.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-298">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -162,8 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/Offer4.java" />
-        <option value="$PROJECT_DIR$/src/offer/Offer15判断一个单向链表是否形成了环形结构.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer15求链表的中间节点.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer5从尾到头打印链表.java" />
         <option value="$PROJECT_DIR$/src/第二遍/Offer6根据前序中序遍历重建二叉树.java" />
@@ -171,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/offer/Offer7用两个栈实现队列.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer7用两个队列实现一个栈.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer8旋转数组的最小数字.java" />
-        <option value="$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer11数值的整数次方.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer12任意两个整数的加法.java" />
         <option value="$PROJECT_DIR$/src/offer/Offer12打印1到最大的n位数.java" />
@@ -210,9 +144,12 @@
         <option value="$PROJECT_DIR$/src/offer/第38数字在排序数组中出现的次数.java" />
         <option value="$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java" />
         <option value="$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java" />
-        <option value="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" />
         <option value="$PROJECT_DIR$/src/offer/第48把字符串转换成整数.java" />
         <option value="$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java" />
+        <option value="$PROJECT_DIR$/src/offer/第51数组中重复的数字.java" />
+        <option value="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" />
+        <option value="$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -222,11 +159,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-20" />
+    <option name="y" value="198" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,37 +171,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="codingFirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingFirst" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="codingFirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingFirst" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="codingFirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingFirst" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="第二遍" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +201,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zhangzhewei/IdeaProjects/剑指Offer/src/tooffer/Offer12打印1到最大的n位数.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551437685445" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557744802508" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.第50树中两个节点的最低公共祖先">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="大数问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="第二遍.大数问题" />
       <module name="剑指Offer" />
@@ -303,20 +228,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="第二遍.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第35第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.第35第一个只出现一次的字符" />
-      <module name="剑指Offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,6 +277,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="剑指Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -391,18 +310,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.大数问题" />
-      <item itemvalue="Application.第35第一个只出现一次的字符" />
       <item itemvalue="Application.第39二叉树的深度" />
       <item itemvalue="Application.第47不用加减乘除做加法" />
       <item itemvalue="Application.第50树中两个节点的最低公共祖先" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.第50树中两个节点的最低公共祖先" />
         <item itemvalue="Application.第47不用加减乘除做加法" />
         <item itemvalue="Application.第39二叉树的深度" />
         <item itemvalue="Application.大数问题" />
-        <item itemvalue="Application.第35第一个只出现一次的字符" />
       </list>
     </recent_temporary>
   </component>
@@ -426,12 +345,13 @@
       <workItem from="1546962632208" duration="6367000" />
       <workItem from="1551152643419" duration="13162000" />
       <workItem from="1551336223314" duration="7130000" />
-      <workItem from="1551407972616" duration="5000000" />
+      <workItem from="1551407972616" duration="6539000" />
+      <workItem from="1557742978359" duration="1758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113547000" />
+    <option name="totallyTimeSpent" value="116844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,33 +363,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12481089" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.11639344" visible="true" weight="0.17397882" />
+      <window_info id="Structure" order="1" sideWeight="0.88360655" side_tool="true" weight="0.19440243" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32767403" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.05901639" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6032787" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32649842" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3295082" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32956383" />
@@ -477,7 +398,7 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32956383" />
-      <window_info anchor="right" id="Run" order="11" visible="true" weight="0.22844176" />
+      <window_info active="true" anchor="right" id="Run" order="11" visible="true" weight="0.22844176" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20274636" />
@@ -654,64 +575,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer16反转链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer24二叉搜索树的后序遍历序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer25二叉树中和为某一路径的值.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/58题目图.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/BinaryTreeNode2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/BiTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="154" column="32" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
-          <folding>
-            <element signature="method#CreatTree1#0;class#BiTree#0" />
-            <element signature="method#CreatTree2#0;class#BiTree#0" />
-            <element signature="method#CreatTree3#0;class#BiTree#0" />
-            <element signature="method#CreatTree4#0;class#BiTree#0" />
-            <element signature="method#CreatTree5#0;class#BiTree#0" />
-            <element signature="method#preOrder#0;class#BiTree#0" />
-            <element signature="method#inOrder#0;class#BiTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/BiTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/ComplexNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -816,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第30最小的k个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Offer29数组中出现次数超过一半的数字.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -830,46 +686,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/timeRecord">
+    <entry file="file://$PROJECT_DIR$/src/offer/timeRecord.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第32从1到n整数中1出现的次数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="142" column="15" lean-forward="true" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
-          <folding>
-            <element signature="e#5697#5698#0" expanded="true" />
-            <element signature="e#5728#5729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/TimSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/TimSort.java" />
     <entry file="file://$PROJECT_DIR$/src/第二遍/Offer6根据前序中序遍历重建二叉树.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="163" column="19" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -922,33 +749,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="1440" column="26" selection-start-line="1440" selection-start-column="26" selection-end-line="1440" selection-end-column="26" />
-          <folding>
-            <element signature="e#5126#5127#0" expanded="true" />
-            <element signature="e#5197#5198#0" expanded="true" />
-            <element signature="e#203235#203236#0" expanded="true" />
-            <element signature="e#203276#203277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第33把数组排成最小的数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248">
-          <caret line="210" column="18" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/第二遍/大数问题.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -976,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/第41和为s的两个数字VS和为s的连续正数序列.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -992,11 +787,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state>
           <caret line="3" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/Offer43n个骰子的点数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1004,27 +802,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer45圆圈中最后剩下的数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="method#Add#0;class#第47不用加减乘除做加法#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/第48把字符串转换成整数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
+        <state relative-caret-position="516">
           <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="71" column="15" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第32从1到n整数中1出现的次数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第33把数组排成最小的数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Offer39判断一棵树是不是平衡二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1035,17 +844,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/第51数组中重复的数字.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="71" column="15" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="15" />
+        <state relative-caret-position="-298">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/第51数组中重复的数字.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Offer45圆圈中最后剩下的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Offer5从尾到头打印链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第30最小的k个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Offer10二进制中1的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>

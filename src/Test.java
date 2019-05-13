@@ -1,15 +1,21 @@
-import java.util.Arrays;
-
 public class Test {
     public static void main(String[] args) {
-        int a=1;
-        int b=2;
-        int c=2;
-        int result=a^b^c;
-        int[] data={2,1,6,5};
-        Arrays.sort(data);
+        int a = 1;
+        System.out.println(getN(a));
+        System.out.println(getN(12));
+        System.out.println(getN(-12));
+    }
 
-        String str=new String("123");
-        char aaa=str.charAt(str.length()-1);
+    public static int getN(int data) {
+        int num = 0;
+        int flag=1;
+        while (data!=0) {
+            if ((flag&data)==1){
+                num++;
+                data=flag^data;
+            }
+            flag=flag<<1;
+        }
+        return num;
     }
 }
