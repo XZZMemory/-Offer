@@ -4,15 +4,33 @@ import utils.BinaryTreeNode2;
 
 public class Offer59对称的二叉树 {
     public static void main(String[] args) {
-        BinaryTreeNode2 biTree1=CreatBiTree1();
-        BinaryTreeNode2 biTree2=CreatBiTree2();
-        boolean result1=IsSy(biTree1);
-        boolean result2=IsSy(biTree2);
-        boolean result3=IsSy(null);
-
+        BinaryTreeNode2 biTree1 = creatBiTree1();
+        BinaryTreeNode2 biTree2 = creatBiTree2();
+        boolean result1 = isSy(biTree1);
+        boolean result2 = isSy(biTree2);
+        boolean result3 = isSy(null);
     }
 
-    public static BinaryTreeNode2 CreatBiTree1() {
+    public static boolean isSy(BinaryTreeNode2 root) {
+        if (root == null)
+            return true;
+        return isSymmetrical(root.left, root.right);
+    }
+
+    public static boolean isSymmetrical(BinaryTreeNode2 node1, BinaryTreeNode2 node2) {
+        if (node1 == null && node2 == null)
+            return true;
+        else if (node1 == null || node2 == null)
+            return false;
+        else {
+            if (node1.info == node2.info)
+                return isSymmetrical(node1.left, node2.right) && isSymmetrical(node1.right, node2.left);
+            else
+                return false;
+        }
+    }
+
+    public static BinaryTreeNode2 creatBiTree1() {
         BinaryTreeNode2 node1 = new BinaryTreeNode2(8);
         BinaryTreeNode2 node2 = new BinaryTreeNode2(6);
         BinaryTreeNode2 node3 = new BinaryTreeNode2(6);
@@ -37,7 +55,7 @@ public class Offer59对称的二叉树 {
         return node1;
     }
 
-    public static BinaryTreeNode2 CreatBiTree2() {
+    public static BinaryTreeNode2 creatBiTree2() {
         BinaryTreeNode2 node1 = new BinaryTreeNode2(7);
         BinaryTreeNode2 node2 = new BinaryTreeNode2(7);
         BinaryTreeNode2 node3 = new BinaryTreeNode2(7);
@@ -57,25 +75,5 @@ public class Offer59对称的二叉树 {
         node6.left = null;
         node6.right = null;
         return node1;
-    }
-    public static boolean IsSy(BinaryTreeNode2 root)
-    {
-        if (root==null)
-            return true;
-        return IsSymmetrical(root.left,root.right);
-    }
-    public static boolean IsSymmetrical(BinaryTreeNode2 node1,BinaryTreeNode2 node2)
-    {
-        if (node1==null&&node2==null)
-            return true;
-        else if(node1==null||node2==null)
-            return false;
-        else
-        {
-            if (node1.info==node2.info)
-                return  IsSymmetrical(node1.left,node2.right)&&IsSymmetrical(node1.right,node2.left);
-            else
-                return false;
-        }
     }
 }

@@ -9,10 +9,9 @@ public class Test {
     public static int getN(int data) {
         int num = 0;
         int flag=1;
-        while (data!=0) {
-            if ((flag&data)==1){
+        while (flag!=0) {
+            if ((flag&data)>0){
                 num++;
-                data=flag^data;
             }
             flag=flag<<1;
         }

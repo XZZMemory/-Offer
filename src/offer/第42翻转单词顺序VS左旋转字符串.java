@@ -68,6 +68,5 @@ public class 第42翻转单词顺序VS左旋转字符串 {
         reverse(data, 0, index - 1);//bacdef
         reverse(data, index, data.length - 1);//bafedc
         reverse(data, 0, data.length - 1);//cdefab
-
     }
 }

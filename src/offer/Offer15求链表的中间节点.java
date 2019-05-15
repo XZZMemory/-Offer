@@ -3,30 +3,27 @@ package offer;
 
 import utils.LinkList;
 import utils.Node;
+
 //链表带头结点
 public class Offer15求链表的中间节点 {
-    public static void main(String[] args)
-    {
-        Node head=LinkList.creatListwithHead();//类方法，可以不通过类实例来引用
-        Node middle=GetMiddleNode(null);
+    public static void main(String[] args) {
+        Node head = LinkList.creatListwithHead();//类方法，可以不通过类实例来引用
+        Node middle = getMiddleNode(null);
     }
-    public static Node GetMiddleNode(Node head)
-    {
-        if (head==null||head.next==null)
-        {
+
+    public static Node getMiddleNode(Node head) {
+        if (head == null || head.next == null) {
             System.out.print("链表为空！没有中间节点！");
             return null;
         }
-        Node slow=head.next;
-        Node fast=slow.next;
-        while(fast!=null&&slow!=null)
-        {
-            slow=slow.next;
-            fast=fast.next;
-            if (fast!=null)
-                fast=fast.next;
+        Node slow = head.next;
+        Node fast = slow.next;
+        while (fast != null && slow != null) {
+            slow = slow.next;
+            fast = fast.next;
+            if (fast != null)
+                fast = fast.next;
         }
         return slow;
     }
-
 }

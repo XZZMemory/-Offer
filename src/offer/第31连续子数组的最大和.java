@@ -7,39 +7,34 @@ package offer;
 import java.util.Arrays;
 
 public class 第31连续子数组的最大和 {
-    public static void main(String[] args)
-    {
-        int[] numbers={1,-2,3,10,-4,7,2,-5};
+    public static void main(String[] args) {
+        int[] numbers = {1, -2, 3, 10, -4, 7, 2, -5};
         //numbers=null;//test1
-        if (numbers==null||numbers.length<0)
+        if (numbers == null || numbers.length < 0)
             System.out.println("无效输入!");
-        else
-        {
-            int max= findGreatestSubArrayWithDP(numbers);
+        else {
+            int max = findGreatestSubArrayWithDP(numbers);
             System.out.println(max);
         }
     }
 
-    public static  int findGreatestSubArray(int[] numbers)
-    {
-        if (numbers==null)
+    public static int findGreatestSubArray(int[] numbers) {
+        if (numbers == null)
             return -1;
-        int greatSum=0;
-        int currentSum=0;
-        for (int i=0;i<numbers.length;i++)
-        {
-            if (currentSum<0)
+        int greatSum = 0;
+        int currentSum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            if (currentSum < 0)
                 currentSum = numbers[i];
             else //currentsSum>0
-                currentSum+=numbers[i];
-            if (currentSum>greatSum)
-                    greatSum=currentSum;
-
+                currentSum += numbers[i];
+            if (currentSum > greatSum)
+                greatSum = currentSum;
         }
         return greatSum;
-
     }
-    public static  int findGreatestSubArrayWithDP(int[] numbers) {
+
+    public static int findGreatestSubArrayWithDP(int[] numbers) {
         if (numbers == null || numbers.length == 0)
             return -1;
         int[] greatestSubArray = new int[numbers.length];
