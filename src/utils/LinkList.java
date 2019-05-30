@@ -17,6 +17,22 @@ public class LinkList {
         return head;
     }
 
+    public static Node creatListwithOutHead() {
+        char[] string = "abde".toCharArray();
+        Node p = new Node();
+        Node head = p;
+        head.info = string[0];
+        Node q;
+        for (int i = 1; i < string.length; i++) {
+            q = new Node();
+            q.info = string[i];
+            q.next = null;
+            p.next = q;
+            p = q;
+        }
+        return head;
+    }
+
     public static Node creatListwithHead(char[] data) {
         Node p = new Node();
         Node head = p;
@@ -93,9 +109,10 @@ public class LinkList {
         }
         Node p = head;
         while (p != null) {
-            System.out.println(p.info);
+            System.out.print(p.info+" ");
             p = p.next;
         }
+        System.out.println();
     }
 
     public static void traversalOfLinkListWithHead(Node head) {
