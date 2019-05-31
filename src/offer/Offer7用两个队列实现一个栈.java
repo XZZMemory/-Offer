@@ -14,16 +14,16 @@ public class Offer7用两个队列实现一个栈 {
         Scanner scanner = new Scanner(System.in);
         int operation = scanner.nextInt();
         while (operation != 3) {
-            if (IsContain(operationList, operation)) {
+            if (isContain(operationList, operation)) {
                 switch (operation) {
                     case 1:
                         System.out.println("请输入进栈元素:");
                         Scanner scanner2 = new Scanner(System.in);
                         int data = scanner2.nextInt();
-                        Push(queue1, queue2, data);
+                        push(queue1, queue2, data);
                         break;
                     case 2:
-                        Pop(queue1, queue2);
+                        pop(queue1, queue2);
                         break;
                 }
             } else
@@ -35,7 +35,7 @@ public class Offer7用两个队列实现一个栈 {
         System.out.println("退出程序！");
     }
 
-    public static boolean IsContain(int[] list, int a) {
+    public static boolean isContain(int[] list, int a) {
         boolean flag = false;
         for (int i = 0; i < list.length; i++) {
             if (list[i] == a) {
@@ -47,7 +47,7 @@ public class Offer7用两个队列实现一个栈 {
     }
 
     //进栈
-    public static void Push(Queue queue1, Queue queue2, int data) {
+    public static void push(Queue queue1, Queue queue2, int data) {
         if (queue1 == null || queue2 == null) {
             System.out.println("队列不存在！");
             return;
@@ -60,7 +60,7 @@ public class Offer7用两个队列实现一个栈 {
     }
 
     //出栈
-    public static void Pop(Queue queue1, Queue queue2) {
+    public static void pop(Queue queue1, Queue queue2) {
         if (queue1 == null || queue2 == null) {
             System.out.println("队列不存在");
             return;

@@ -7,15 +7,15 @@ public class Offer10二进制Excell {
         String test3 = "ZZ";
         String test4 = " ";
         String test5 = "A2";
-        int test1num = GetNum(test1);
-        int test2num = GetNum(test2);
-        int test3num = GetNum(test3);
-        int test4num = GetNum(test4);
-        int test5num = GetNum(test5);
-        int test6num = GetNum(null);
+        int test1num = getNum(test1);
+        int test2num = getNum(test2);
+        int test3num = getNum(test3);
+        int test4num = getNum(test4);
+        int test5num = getNum(test5);
+        int test6num = getNum(null);
     }
 
-    public static int GetNum(String str) {
+    public static int getNum(String str) {
         if (str == null || str.length() == 0) {
             System.out.println("字符串为空！");
             return -1;

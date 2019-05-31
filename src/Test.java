@@ -1,5 +1,6 @@
 public class Test {
     public static void main(String[] args) {
+        System.out.println("二进制转换为十进制： "+Integer.parseInt("111",2));
         int a = 1;
         System.out.println(getN(a));
         System.out.println(getN(12));

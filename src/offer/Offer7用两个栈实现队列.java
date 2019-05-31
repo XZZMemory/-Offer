@@ -14,33 +14,30 @@ public class Offer7用两个栈实现队列 {
         int i;
         i = in.nextInt();
         while (i != 3) {
-            if (IsContain(operationList, i)) {
+            if (isContain(operationList, i)) {
                 switch (i) {
                     case 1://进栈
                         System.out.println("请输入进栈数据");
                         Scanner Data = new Scanner(System.in);
                         int data = Data.nextInt();
-                        InQueue(stackIn, data);
+                        add(stackIn, data);
                         break;
                     case 2://出栈
-                        DeQueue(stackIn, stackDe);
+                        remove(stackIn, stackDe);
                         break;
-
                 }
                 System.out.println("请输入操作，1-进栈，2-出栈,3-退出");
-
             } else
                 System.out.println("输入数字不正确，请输入操作，1-进栈，2-出栈,3-退出");
             in = new Scanner(System.in);
             i = in.nextInt();
-
         }
         if (i == 3) {
             System.out.println("退出程序");
         }
     }
 
-    public static boolean IsContain(int[] list, int a) {
+    public static boolean isContain(int[] list, int a) {
         boolean flag = false;
         for (int i = 0; i < list.length; i++) {
             if (list[i] == a) {
@@ -52,7 +49,7 @@ public class Offer7用两个栈实现队列 {
     }
 
     //进栈
-    public static void InQueue(Stack stackIn, int data) {
+    public static void add(Stack stackIn, int data) {
         System.out.println("执行进栈操作");
         if (stackIn.size() == stackIn.capacity()) {
             System.out.println("栈已满，请先出栈");
@@ -62,7 +59,7 @@ public class Offer7用两个栈实现队列 {
     }
 
     //出栈
-    public static void DeQueue(Stack stackIn, Stack stackDe) {
+    public static void remove(Stack stackIn, Stack stackDe) {
         System.out.println("执行出栈操作");
         if (stackDe.isEmpty())//第二个栈是空的，已经没有数据了
         {

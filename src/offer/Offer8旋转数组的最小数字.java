@@ -9,14 +9,14 @@ public class Offer8旋转数组的最小数字 {
     public static void main(String[] args) {
         //首先考虑二分查找，特殊情况，当两个指针指向的数字以及它们中间的数字相等时
         int[] numbers = {3, 4, 5, 1, 2};
-        int position = FindMin(numbers);
+        int position = findMin(numbers);
         System.out.println("原始数组是: " + Arrays.toString(numbers));
         System.out.println("最小数字的位置是：" + position);
         int[] numbersSorted = sortedArray(numbers, position);
         System.out.println("排序后的数组是：" + Arrays.toString(numbersSorted));
     }
 
-    public static int FindMin(int[] numbers) {
+    public static int findMin(int[] numbers) {
         if (numbers == null || numbers.length == 0)
             return -1;
         int pre = 0;
