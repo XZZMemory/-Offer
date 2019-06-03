@@ -11,9 +11,10 @@ public class Offer10二进制中1的个数 {
         System.out.println(getNumOf1a(-5));
         System.out.println();
         System.out.println(getNumOf1c(-5));
+        System.out.println(getNumOf1b(-5));
     }
 
-    /*字符1左移*/
+    /*数字1左移 flag<<*/
     public static int getNumOf1a(int num) {
         int count = 0;
         int flag = 1;
@@ -28,6 +29,19 @@ public class Offer10二进制中1的个数 {
             }
             flag = flag << 1;
             System.out.println(flag);
+        }
+        return count;
+    }
+
+    public static int getNumOf1b(int num) {
+        int count = 0;
+        while (num != 0) {
+            if ((num & 1) != 0) {
+                ++count;
+            }
+            System.out.println(Integer.valueOf(num));
+            System.out.println(Integer.toBinaryString(num));
+            num = num >>> 1;
         }
         return count;
     }

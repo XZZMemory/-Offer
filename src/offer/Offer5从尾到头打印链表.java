@@ -7,7 +7,7 @@ import java.util.Stack;
 
 public class Offer5从尾到头打印链表 {
     public static void main(String[] args) {
-        Node head = LinkList.creatListwithHead();
+        Node head = LinkList.creatList();
         System.out.print("利用栈，从尾到头访问：");
         printListReversinglyIterratively(head);
         System.out.println();

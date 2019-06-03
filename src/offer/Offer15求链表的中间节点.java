@@ -7,8 +7,9 @@ import utils.Node;
 //链表带头结点
 public class Offer15求链表的中间节点 {
     public static void main(String[] args) {
-        Node head = LinkList.creatListwithHead();//类方法，可以不通过类实例来引用
-        Node middle = getMiddleNode(null);
+        Node head = LinkList.creatList();//类方法，可以不通过类实例来引用
+        LinkList.traverseList(head);
+        System.out.println(getMiddleNode(head).info);
     }
 
     public static Node getMiddleNode(Node head) {

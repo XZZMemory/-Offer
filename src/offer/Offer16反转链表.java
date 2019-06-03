@@ -7,14 +7,14 @@ import utils.Node;
  * 链表带头结点*/
 public class Offer16反转链表 {
     public static void main(String[] args) {
-        Node head = LinkList.creatListwithHead();
-        LinkList.traversalOfLinklistWithHead(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
+        Node head = LinkList.creatList();
+        LinkList.traverseList(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
         Node head2 = reverse(head);
         if (head2 == null) {
             return;
         }
         System.out.println("反转后的链表为：");
-        LinkList.traversalofLinklistWithoutHead(head2);
+        LinkList.traverseListNoHead(head2);
     }
 
     public static Node reverse(Node head) {

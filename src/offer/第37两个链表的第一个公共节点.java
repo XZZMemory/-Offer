@@ -14,9 +14,9 @@ public class 第37两个链表的第一个公共节点 {
         int[] data2 = {4, 5, 6};
         int[] sameData = {7, 8, 9, 10};
         //带头结点的链表，数据是int型数据
-        NodeInt head1 = LinkList.creatLinklistWithIntData(data1);
-        NodeInt head2 = LinkList.creatLinklistWithIntData(data2);
-        NodeInt sameDataHead = LinkList.creatLinklistWithIntData(sameData);
+        NodeInt head1 = LinkList.creatList(data1);
+        NodeInt head2 = LinkList.creatList(data2);
+        NodeInt sameDataHead = LinkList.creatList(sameData);
         NodeInt p = new NodeInt();
         for (p = head1; p.next != null; p = p.next) ;
         p.next = sameDataHead.next;

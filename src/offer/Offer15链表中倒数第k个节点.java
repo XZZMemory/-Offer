@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Offer15链表中倒数第k个节点 {
     public static void main(String[] args) {
         char[] data = "12345".toCharArray();
-        Node head = LinkList.creatListwithHead(data);//创建带头结点的链表
+        Node head = LinkList.creatList(data);//创建带头结点的链表
         System.out.println("访问链表的倒数度k个节点，请输入n，在0和" + data.length + "之间");
         Scanner scanner = new Scanner(System.in);
         int k = scanner.nextInt();//
