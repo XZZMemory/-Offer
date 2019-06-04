@@ -71,26 +71,15 @@ public class BiTree {
     }
 
     public static BiTreeNode creatTree3() {
-        BiTreeNode biTree = new BiTreeNode();//根节点
-        BiTreeNode left1 = new BiTreeNode();
-        BiTreeNode right1 = new BiTreeNode();
-        BiTreeNode left2 = new BiTreeNode();
-        BiTreeNode right2 = new BiTreeNode();
-        biTree.info = 10;
+        BiTreeNode biTree = new BiTreeNode(10);//根节点
+        BiTreeNode left1 = new BiTreeNode(5);
+        BiTreeNode right1 = new BiTreeNode(12);
+        BiTreeNode left2 = new BiTreeNode(4);
+        BiTreeNode right2 = new BiTreeNode(7);
         biTree.left = left1;
         biTree.right = right1;
-        left1.info = 5;
         left1.left = left2;
         left1.right = right2;
-        right1.info = 12;
-        right1.left = null;
-        right1.right = null;
-        left2.info = 4;
-        left2.left = null;
-        left2.right = null;
-        right2.info = 7;
-        right2.left = null;
-        right2.right = null;
         return biTree;
     }
 

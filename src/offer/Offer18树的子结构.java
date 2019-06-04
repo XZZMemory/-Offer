@@ -1,38 +1,40 @@
-package offer;//定义两棵二叉树A和B，判断B是不是A的子结构
+package offer;
 
 import utils.BiTree;
 import utils.BiTreeNode;
 
+/* 定义两棵二叉树A和B，判断B是不是A的子结构*/
 public class Offer18树的子结构 {
     public static void main(String[] args) {
         BiTreeNode biTree1 = BiTree.creatTree1();
         BiTreeNode biTree2 = BiTree.creatTree2();
-        System.out.println(hasSubTree(biTree1, biTree2));
+        System.out.println(isSubTree(biTree1, biTree2));
     }
 
     //首先找到与树2根节点一样的节点，然后判断之后的节点是否一样
-    public static boolean hasSubTree(BiTreeNode BiTree1, BiTreeNode BiTree2) {
+    public static boolean isSubTree(BiTreeNode tree1, BiTreeNode tree2) {
         boolean result = false;
-        if ((BiTree1 == null) || (BiTree2 == null)) {
+        if ((tree1 == null) || (tree2 == null)) {
             return false;
         }
-        if (BiTree1.info == BiTree2.info)//判断左右子树只有根节点信息一样，才会判断
-            result = doesTree1HasTree2(BiTree1, BiTree2);
+        if (tree1.info == tree2.info)//判断左右子树只有根节点信息一样，才会判断
+            result = isSimilar(tree1, tree2);
         if (!result)
-            result = hasSubTree(BiTree1.left, BiTree2);
+            result = isSubTree(tree1.left, tree2);
         if (!result)
-            result = hasSubTree(BiTree1.right, BiTree2);
+            result = isSubTree(tree1.right, tree2);
         return result;
     }
 
-    public static boolean doesTree1HasTree2(BiTreeNode BiTree1, BiTreeNode BiTree2) {//判断两个树的树的左右子树是否一样
+    /* 判断两个树的树的左右子树是否一样*/
+    public static boolean isSimilar(BiTreeNode BiTree1, BiTreeNode BiTree2) {
         if (BiTree2 == null) {//说明BiTree2已查找完毕
             return true;
         } else if (BiTree1 == null) {//BiTree1查找完毕，
             return false;
         }
         if (BiTree1.info == BiTree2.info) {//两节点信息一样，查找左右子树是否一致
-            return ((doesTree1HasTree2(BiTree1.left, BiTree2.left)) && (doesTree1HasTree2(BiTree1.right, BiTree2.right)));
+            return ((isSimilar(BiTree1.left, BiTree2.left)) && (isSimilar(BiTree1.right, BiTree2.right)));
         } else {//两棵树的节点信息不同
             return false;
         }

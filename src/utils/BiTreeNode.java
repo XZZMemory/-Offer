@@ -7,6 +7,8 @@ public class BiTreeNode {
 
     public BiTreeNode(int info) {
         this.info = info;
+        this.left = null;
+        this.right = null;
     }
 
     public BiTreeNode() {
