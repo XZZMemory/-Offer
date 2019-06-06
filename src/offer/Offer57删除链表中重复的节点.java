@@ -1,6 +1,5 @@
 package offer;
 
-import utils.LinkList;
 import utils.NodeInt;
 
 public class Offer57删除链表中重复的节点 {

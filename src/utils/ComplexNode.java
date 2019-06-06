@@ -5,27 +5,28 @@ public class ComplexNode {
     public ComplexNode next;
     public ComplexNode sibling;
 
+    public ComplexNode(char info) {
+        this.info = info;
+        this.next = null;
+        this.sibling = null;
+    }
+
+    public ComplexNode() {
+    }
+
     public static ComplexNode creatComplexNode() {
-        ComplexNode head = new ComplexNode();
-        ComplexNode b = new ComplexNode();
-        ComplexNode c = new ComplexNode();
-        ComplexNode d = new ComplexNode();
-        ComplexNode e = new ComplexNode();
-        head.info = 'A';
+        ComplexNode head = new ComplexNode('A');
+        ComplexNode b = new ComplexNode('B');
+        ComplexNode c = new ComplexNode('C');
+        ComplexNode d = new ComplexNode('D');
+        ComplexNode e = new ComplexNode('E');
         head.next = b;
         head.sibling = c;
-        b.info = 'B';
         b.next = c;
         b.sibling = e;
-        c.info = 'C';
         c.next = d;
-        c.sibling = null;
-        d.info = 'D';
         d.next = e;
         d.sibling = b;
-        e.info = 'E';
-        e.next = null;
-        e.sibling = null;
         return head;
     }
 
@@ -34,8 +35,7 @@ public class ComplexNode {
             System.out.println("复杂链表为空！");
             return;
         }
-        ComplexNode p = new ComplexNode();
-        p = head;
+        ComplexNode p = head;
         while (p != null) {
             System.out.print(p.info + " ");
             if (p.next != null)

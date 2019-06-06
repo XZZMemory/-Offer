@@ -1,6 +1,5 @@
 package 第二遍;
 
-import utils.LinkList;
 import utils.Node;
 
 /**
@@ -10,8 +9,8 @@ import utils.Node;
  */
 public class Offer15求链表的中间节点 {
     public static void main(String[] args) {
-        Node head = LinkList.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
-        LinkList.traverseList(head);
+        Node head = Node.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        Node.traverseList(head);
         System.out.println(getMiddle(head).info);
 
     }

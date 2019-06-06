@@ -1,81 +1,57 @@
 package utils;
 
-import java.util.Scanner;
-
 public class BiTree {
-    public static BiTreeNode CreatTree() {
-        System.out.println("输入1-退出创建节点，其他数字输入节点内容：");
-        Scanner sc = new Scanner(System.in);
-        int option = sc.nextInt();
-        if (option != 1) {
-            BiTreeNode BiTree = new BiTreeNode();
-            BiTree.info = option;
-            System.out.println("创建节点" + option + "的左子树");
-            BiTreeNode left1 = new BiTreeNode();
-            BiTree.left = CreatTree();
-            System.out.println("创建节点" + option + "的右子树");
-            BiTree.left = CreatTree();
-            return BiTree;
-        } else {
-            System.out.println("结束节点创建");
-            return null;
-        }
+    public int info;
+    public BiTree left;
+    public BiTree right;
+
+    public BiTree(int info) {
+        this.info = info;
+        this.left = null;
+        this.right = null;
     }
 
-    public static BiTreeNode creatTree1() {
-        BiTreeNode BiTree = new BiTreeNode();
-        BiTreeNode left1 = new BiTreeNode();
-        BiTreeNode right1 = new BiTreeNode();
-        BiTreeNode left2 = new BiTreeNode();
-        BiTreeNode right2 = new BiTreeNode();
-        BiTreeNode left3 = new BiTreeNode();
-        BiTreeNode right3 = new BiTreeNode();
-        BiTree.info = 8;
-        BiTree.left = left1;
-        BiTree.right = right1;
-        right1.info = 7;
-        right1.left = null;
-        right1.right = null;
-        left1.info = 8;
+    public BiTree() {
+    }
+
+    public static boolean isLeaf(BiTree biTree) {
+        if ((biTree.right == null) && (biTree.left == null))
+            return true;
+        return false;
+    }
+
+    public static BiTree creatTree1() {
+        BiTree root = new BiTree(8);
+        BiTree left1 = new BiTree(8);
+        BiTree right1 = new BiTree(7);
+        BiTree left2 = new BiTree(9);
+        BiTree right2 = new BiTree(2);
+        BiTree left3 = new BiTree(4);
+        BiTree right3 = new BiTree(7);
+        root.left = left1;
+        root.right = right1;
         left1.left = left2;
         left1.right = right2;
-        left2.info = 9;
-        left2.left = null;
-        left2.right = null;
-        right2.info = 2;
         right2.left = left3;
         right2.right = right3;
-        left3.info = 4;
-        left3.right = null;
-        left3.left = null;
-        right3.info = 7;
-        right3.left = null;
-        right3.right = null;
-        return BiTree;
+        return root;
     }
 
-    public static BiTreeNode creatTree2() {
-        BiTreeNode BiTree = new BiTreeNode();
-        BiTreeNode left1 = new BiTreeNode();
-        BiTreeNode right1 = new BiTreeNode();
-        BiTree.info = 8;
-        BiTree.left = left1;
-        BiTree.right = right1;
-        left1.info = 9;
-        left1.left = null;
-        left1.right = null;
-        right1.info = 2;
-        right1.left = null;
-        right1.right = null;
-        return BiTree;
+    public static BiTree creatTree2() {
+        BiTree root = new BiTree(8);
+        BiTree left1 = new BiTree(9);
+        BiTree right1 = new BiTree(2);
+        root.left = left1;
+        root.right = right1;
+        return root;
     }
 
-    public static BiTreeNode creatTree3() {
-        BiTreeNode biTree = new BiTreeNode(10);//根节点
-        BiTreeNode left1 = new BiTreeNode(5);
-        BiTreeNode right1 = new BiTreeNode(12);
-        BiTreeNode left2 = new BiTreeNode(4);
-        BiTreeNode right2 = new BiTreeNode(7);
+    public static BiTree creatTree3() {
+        BiTree biTree = new BiTree(10);//根节点
+        BiTree left1 = new BiTree(5);
+        BiTree right1 = new BiTree(12);
+        BiTree left2 = new BiTree(4);
+        BiTree right2 = new BiTree(7);
         biTree.left = left1;
         biTree.right = right1;
         left1.left = left2;
@@ -83,55 +59,39 @@ public class BiTree {
         return biTree;
     }
 
-    public static BiTreeNode creatTree4() {
-        BiTreeNode biTree = new BiTreeNode();
-        BiTreeNode left1 = new BiTreeNode();
-        BiTreeNode right1 = new BiTreeNode();
-        BiTreeNode left2 = new BiTreeNode();
-        BiTreeNode right2 = new BiTreeNode();
-        biTree.info = 10;
-        biTree.left = left1;
-        biTree.right = right1;
+    public static BiTree creatTree4() {
+        BiTree root = new BiTree(10);
+        BiTree left1 = new BiTree(6);
+        BiTree right1 = new BiTree(14);
+        BiTree left2 = new BiTree(4);
+        BiTree right2 = new BiTree(8);
+        root.left = left1;
+        root.right = right1;
         left1.info = 6;
         left1.left = left2;
         left1.right = right2;
-        right1.info = 14;
-        right1.left = null;
-        right1.right = null;
-        left2.info = 4;
-        left2.left = null;
-        left2.right = null;
-        right2.info = 8;
-        right2.left = null;
-        right2.right = null;
-        return biTree;
+        return root;
     }
 
-    public static BiTreeNode creatTree5() {
-        BiTreeNode biTree = new BiTreeNode();
-        BiTreeNode left1 = new BiTreeNode();
-        BiTreeNode right1 = new BiTreeNode();
+    public static BiTree creatTree5() {
+        BiTree biTree = new BiTree(2);
+        BiTree left1 = new BiTree(1);
+        BiTree right1 = new BiTree(3);
         biTree.info = 2;
         biTree.left = left1;
         biTree.right = right1;
-        left1.info = 1;
-        left1.left = null;
-        left1.right = null;
-        right1.info = 3;
-        right1.left = null;
-        right1.right = null;
         return biTree;
     }
 
-    public static void preOrder(BiTreeNode BiTree) {
+    public static void preOrder(BiTree BiTree) {
         if (BiTree == null)
             return;
-        System.out.print(BiTree.info);
+        System.out.print(BiTree.info + " ");
         preOrder(BiTree.left);
         preOrder(BiTree.right);
     }
 
-    public static void inOrder(BiTreeNode BiTree) {
+    public static void inOrder(BiTree BiTree) {
         if (BiTree == null)
             return;
         inOrder(BiTree.left);
@@ -139,7 +99,7 @@ public class BiTree {
         inOrder(BiTree.right);
     }
 
-    public static void postOrder(BiTreeNode BiTree) {
+    public static void postOrder(BiTree BiTree) {
         if (BiTree == null)
             return;
         postOrder(BiTree.left);
@@ -147,4 +107,3 @@ public class BiTree {
         System.out.print(BiTree.info + " ");
     }
 }
-

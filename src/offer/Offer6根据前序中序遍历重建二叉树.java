@@ -1,7 +1,6 @@
 package offer;
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 //需要改
 //import java.util.stream;
@@ -9,12 +8,12 @@ public class Offer6根据前序中序遍历重建二叉树 {
     public static void main(String[] args) {
         char[] preOrder = {'1', '2', '4', '7', '3', '5', '6', '8'};
         char[] inOrder = {'4', '7', '2', '1', '5', '3', '8', '6'};
-        BiTreeNode t = new BiTreeNode();
+        BiTree t = new BiTree();
         creatTree(t, preOrder, inOrder);
         BiTree.postOrder(t);
     }
 
-    public static void creatTree(BiTreeNode root, char[] preOrderArray, char[] inOrderArray) {
+    public static void creatTree(BiTree root, char[] preOrderArray, char[] inOrderArray) {
         if (preOrderArray.length == 0) {
             return;
         }
@@ -26,8 +25,8 @@ public class Offer6根据前序中序遍历重建二叉树 {
         int rightLength = inOrderArray.length - position - 1;
         char rootvalue = preOrderArray[0];
         root.info = rootvalue;
-        BiTreeNode right = new BiTreeNode();
-        BiTreeNode left = new BiTreeNode();
+        BiTree right = new BiTree();
+        BiTree left = new BiTree();
         root.left = left;
         root.right = right;
         if (leftLength > 0)//构建左子树

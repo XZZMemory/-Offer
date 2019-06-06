@@ -1,23 +1,22 @@
 package offer;
 
-import utils.LinkList;
 import utils.Node;
 
 //链表带头结点
 public class Offer13在O1时间删除链表节点 {
     public static void main(String[] args) {
-        Node head = LinkList.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        Node head = Node.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
         Node p = head.next;
         while (!(p.info == 'a'))
             p = p.next;
-        LinkList.traverseList(head);//输出链表信息
+        Node.traverseList(head);//输出链表信息
         if (p == null)
             System.out.println("没有找到这个节点！节点p的信息错误");
         else {
             System.out.println("节点p的信息是：" + p.info);
             deleteNode(head, p);
             System.out.println("删除节点p后的链表是：");
-            LinkList.traverseList(head);
+            Node.traverseList(head);
         }
     }
 

@@ -2,14 +2,13 @@
 package offer;
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 public class Offer27二叉搜索树与双向链表 {
-    public static BiTreeNode biLast;
-    public static BiTreeNode head;
+    public static BiTree biLast;
+    public static BiTree head;
 
     public static void main(String[] args) {
-        BiTreeNode biTree = BiTree.creatTree5();
+        BiTree biTree = BiTree.creatTree5();
         convert(biTree);
         while (head != null) {
             System.out.println("信息是：" + head.info);
@@ -17,7 +16,7 @@ public class Offer27二叉搜索树与双向链表 {
         }
     }
 
-    public static void convert(BiTreeNode biTree) {//考虑中序遍历
+    public static void convert(BiTree biTree) {//考虑中序遍历
         if (biTree == null)
             return;
         //左子树

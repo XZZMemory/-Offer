@@ -3,7 +3,6 @@ package offer;
 //1,2,3,6,7
 //  4,5,6,7
 
-import utils.LinkList;
 import utils.NodeInt;
 
 import java.util.Stack;

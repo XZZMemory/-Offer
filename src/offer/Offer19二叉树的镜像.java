@@ -1,7 +1,6 @@
 package offer;
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 import java.util.Stack;
 
@@ -13,14 +12,14 @@ import java.util.Stack;
  */
 public class Offer19二叉树的镜像 {
     public static void main(String[] args) {
-        BiTreeNode biTree = BiTree.creatTree3();
+        BiTree biTree = BiTree.creatTree3();
         BiTree.inOrder(biTree);
         mirrorCircu(biTree);
         BiTree.inOrder(biTree);
     }
 
     /*使用递归*/
-    public static void mirrorRecu(BiTreeNode biTree) {
+    public static void mirrorRecu(BiTree biTree) {
         if (biTree == null) {
             return;
         }
@@ -28,7 +27,7 @@ public class Offer19二叉树的镜像 {
             return;
         }
         //树的左右子树有一个不为空，需要进行交换
-        BiTreeNode temp = biTree.left;
+        BiTree temp = biTree.left;
         biTree.left = biTree.right;
         biTree.right = temp;
         //左右子树节点交换完毕，继续交换左右子树
@@ -37,19 +36,19 @@ public class Offer19二叉树的镜像 {
     }
 
     /*使用循环*/
-    public static void mirrorCircu(BiTreeNode root) {
-        Stack<BiTreeNode> stack = new Stack<BiTreeNode>();
+    public static void mirrorCircu(BiTree root) {
+        Stack<BiTree> stack = new Stack<BiTree>();
         if (root == null)
             return;
         stack.push(root);
         while (!stack.empty()) {
-            BiTreeNode p = stack.pop();
+            BiTree p = stack.pop();
             if (!(p.left == null && p.right == null)) {
                 if (p.left != null)
                     stack.push(p.left);
                 if (p.right != null)
                     stack.push(p.right);
-                BiTreeNode temp = p.left;
+                BiTree temp = p.left;
                 p.left = p.right;
                 p.right = temp;
             }

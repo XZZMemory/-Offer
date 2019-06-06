@@ -6,7 +6,7 @@ public class NodeWithParent {
     public NodeWithParent right;
     public NodeWithParent parent;
 
-    public NodeWithParent(int info)//构造函数
+    public NodeWithParent(int info)
     {
         this.info = info;
     }

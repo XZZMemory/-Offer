@@ -1,6 +1,5 @@
 package 第二遍;
 
-import utils.LinkList;
 import utils.Node;
 
 /**
@@ -11,10 +10,10 @@ import utils.Node;
  * 链表带头结点*/
 public class Offer16反转链表 {
     public static void main(String[] args) {
-        Node head = LinkList.creatList();
-        LinkList.traverseList(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
+        Node head = Node.creatList();
+        Node.traverseList(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
         Node head2 = reverse(head);
-        LinkList.traverseList(head2);
+        Node.traverseList(head2);
     }
 
     public static Node reverse(Node head) {

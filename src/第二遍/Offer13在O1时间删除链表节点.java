@@ -1,6 +1,5 @@
 package 第二遍;
 
-import utils.LinkList;
 import utils.Node;
 
 /**
@@ -9,14 +8,14 @@ import utils.Node;
  */
 public class Offer13在O1时间删除链表节点 {
     public static void main(String[] args) {
-        Node head = LinkList.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        Node head = Node.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
         Node p = head.next;
         while (!(p.info == 'e'))
             p = p.next;
         p = null;
-        LinkList.traverseList(head);//输出链表信息
+        Node.traverseList(head);//输出链表信息
         deleteNode(head, p);
-        LinkList.traverseList(head);//输出链表信息
+        Node.traverseList(head);//输出链表信息
 
     }
 

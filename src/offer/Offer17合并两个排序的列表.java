@@ -1,6 +1,5 @@
 package offer;
 
-import utils.LinkList;
 import utils.NodeInt;
 
 //两个递增排序的链表，合并两个链表并使新链表中的节点仍然是按照升序排列的。
@@ -8,10 +7,10 @@ public class Offer17合并两个排序的列表 {
     public static void main(String[] args) {
         int[] number1 = {1, 3, 5, 6, 7};
         int[] number2 = {2, 5, 8, 9};
-        NodeInt head1 = LinkList.creatList(number1);
-        NodeInt head2 = LinkList.creatList(number2);
+        NodeInt head1 = NodeInt.creatList(number1);
+        NodeInt head2 = NodeInt.creatList(number2);
         NodeInt head = merge(head1, head2);
-        LinkList.traverseList(head);
+        NodeInt.traverseList(head);
     }
 
     public static NodeInt merge(NodeInt head1, NodeInt head2) {//head1 和head2均是带头节点的链表

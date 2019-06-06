@@ -6,7 +6,6 @@ package 第二遍;
  */
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 /**
  * 题目：输入一个二叉树，输出他的镜像
@@ -16,15 +15,15 @@ import utils.BiTreeNode;
  */
 public class Offer19二叉树的镜像 {
     public static void main(String[] args) {
-        BiTreeNode tree = BiTree.creatTree3();
+        BiTree tree = BiTree.creatTree3();
         mirrorRecu(tree);
     }
 
-    public static void mirrorRecu(BiTreeNode tree) {
+    public static void mirrorRecu(BiTree tree) {
         if (tree == null) {
             return;
         }
-        BiTreeNode temp = tree.left;
+        BiTree temp = tree.left;
         tree.left = tree.right;
         tree.right = temp;
         mirrorRecu(tree.left);

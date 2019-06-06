@@ -1,18 +1,17 @@
 package offer;
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 /* 定义两棵二叉树A和B，判断B是不是A的子结构*/
 public class Offer18树的子结构 {
     public static void main(String[] args) {
-        BiTreeNode biTree1 = BiTree.creatTree1();
-        BiTreeNode biTree2 = BiTree.creatTree2();
+        BiTree biTree1 = BiTree.creatTree1();
+        BiTree biTree2 = BiTree.creatTree2();
         System.out.println(isSubTree(biTree1, biTree2));
     }
 
     //首先找到与树2根节点一样的节点，然后判断之后的节点是否一样
-    public static boolean isSubTree(BiTreeNode tree1, BiTreeNode tree2) {
+    public static boolean isSubTree(BiTree tree1, BiTree tree2) {
         boolean result = false;
         if ((tree1 == null) || (tree2 == null)) {
             return false;
@@ -27,7 +26,7 @@ public class Offer18树的子结构 {
     }
 
     /* 判断两个树的树的左右子树是否一样*/
-    public static boolean isSimilar(BiTreeNode BiTree1, BiTreeNode BiTree2) {
+    public static boolean isSimilar(BiTree BiTree1, BiTree BiTree2) {
         if (BiTree2 == null) {//说明BiTree2已查找完毕
             return true;
         } else if (BiTree1 == null) {//BiTree1查找完毕，

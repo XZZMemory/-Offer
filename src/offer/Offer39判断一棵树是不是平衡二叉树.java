@@ -1,12 +1,11 @@
 package offer;
 
 import utils.BiTree;
-import utils.BiTreeNode;
 
 public class Offer39判断一棵树是不是平衡二叉树 {
     public static void main(String[] args) {
         BiTree biTree = new BiTree();
-        BiTreeNode root = biTree.creatTree1();
+        BiTree root = biTree.creatTree1();
         //root=null;测试用例1-根节点为空
         //root.left=null;//测试用例2，只有一个根节点
         root.right = null;//测试用例2
@@ -15,7 +14,7 @@ public class Offer39判断一棵树是不是平衡二叉树 {
     }
 
     //这种方法会重复遍历一个节点多遍。影响性能。前序遍历
-    public static boolean isBalannced(BiTreeNode root) {
+    public static boolean isBalannced(BiTree root) {
         if (root == null)
             return true;
         int leftDepth = treeDepth(root.left);
@@ -27,7 +26,7 @@ public class Offer39判断一棵树是不是平衡二叉树 {
             return isBalannced(root.left) && isBalannced(root.right);
     }
 
-    public static int treeDepth(BiTreeNode root) {
+    public static int treeDepth(BiTree root) {
         if (root == null)
             return 0;
         int leftDepth = treeDepth(root.left);
@@ -36,7 +35,7 @@ public class Offer39判断一棵树是不是平衡二叉树 {
     }
 
     //思考用后序遍历方法，遍历一个节点之前就已经遍历完节点的左右节点子树，还未写出来。。。。
-    public static int isBalannced2(BiTreeNode root, Integer depth) {
+    public static int isBalannced2(BiTree root, Integer depth) {
         if (root == null) {
             depth = 0;
             //return true;
@@ -46,12 +45,12 @@ public class Offer39判断一棵树是不是平衡二叉树 {
     }
 
     //不对，depth传不过去，程序栈之间无法共享，**********
-    public static boolean isBalanced2(BiTreeNode root) {
+    public static boolean isBalanced2(BiTree root) {
         int depth = 0;
         return isBalanced2(root, depth);
     }
 
-    public static boolean isBalanced2(BiTreeNode root, int depth) {
+    public static boolean isBalanced2(BiTree root, int depth) {
         if (root == null) {
             depth = 0;
             return true;
