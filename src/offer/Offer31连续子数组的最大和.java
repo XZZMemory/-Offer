@@ -6,7 +6,7 @@ package offer;
 
 import java.util.Arrays;
 
-public class 第31连续子数组的最大和 {
+public class Offer31连续子数组的最大和 {
     public static void main(String[] args) {
         int[] numbers = {1, -2, 3, 10, -4, 7, 2, -5};
         //numbers=null;//test1

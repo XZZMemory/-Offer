@@ -5,8 +5,7 @@ import utils.NodeInt;
 public class Offer57删除链表中重复的节点 {
     public static void main(String[] args) {
         int[] data = {1, 2, 3, 3, 3, 4, 4, 5};//1，2，5
-        LinkList linkList = new LinkList();
-        NodeInt head = linkList.creatList(data);
+        NodeInt head = NodeInt.creatList(data);
         head = deleteDulicaption(head);
     }
 

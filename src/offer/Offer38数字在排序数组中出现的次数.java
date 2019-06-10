@@ -8,7 +8,7 @@ import java.util.Vector;
  * 集合知识：set无序，不可重复: hashSet，TreeSet
  * list，有序，可重复：ArrayList，LinkedLIst，Vector
  */
-public class 第38数字在排序数组中出现的次数 {
+public class Offer38数字在排序数组中出现的次数 {
     public static void main(String[] args) {
         int[] data = {1, 2, 3, 3, 3, 3, 4, 4, 5};
         int k = 4;

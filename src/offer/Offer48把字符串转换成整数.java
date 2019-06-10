@@ -3,7 +3,7 @@ package offer;
 import java.util.Scanner;
 
 //不使用字符串转换成数字的库函数
-public class 第48把字符串转换成整数 {
+public class Offer48把字符串转换成整数 {
     public static int flag = 0;//类常量0-正常 1-字符串空 2-非法输入
 
     public static void main(String[] args) {

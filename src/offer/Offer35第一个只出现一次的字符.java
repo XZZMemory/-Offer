@@ -11,7 +11,7 @@ package offer;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class 第35第一个只出现一次的字符 {
+public class Offer35第一个只出现一次的字符 {
     public static void main(String[] args) {
         StringBuffer str = new StringBuffer("aaababcchedff");
         //str=null;测试

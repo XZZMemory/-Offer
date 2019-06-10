@@ -7,7 +7,7 @@ import java.util.Map;
  * 删除字符串中所有重复出现的字符
  * google -> gole
  */
-public class 第35删除字符串中所有重复出现的字符 {
+public class Offer35删除字符串中所有重复出现的字符 {
     public static void main(String[] args) {
         StringBuffer stringBuffer = new StringBuffer("google");//编程gole
         char[] data = deleteSameChar(stringBuffer);

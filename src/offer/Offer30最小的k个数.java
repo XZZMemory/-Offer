@@ -4,7 +4,7 @@ package offer;
 
 import java.util.Random;
 
-public class 第30最小的k个数 {
+public class Offer30最小的k个数 {
     public static void main(String[] args) {
         int[] numbers = {4, 5, 1, 6, 2, 7, 3, 8};
         int k = 4;

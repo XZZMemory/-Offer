@@ -2,53 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb212ad7-501f-410f-b4b6-8d6669e5b0bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/creatTree1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/creatTree3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/creatTree4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/第二遍/Offer23从上往下打印二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer21包含min函数的栈使用java原本有的Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer22栈的压入弹出序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/offer/Offer22栈的压入弹出序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/BiTreeNode.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/~$TreeNode.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer13在O1时间删除链表节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer13在O1时间删除链表节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer15判断一个单向链表是否形成了环形结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer15判断一个单向链表是否形成了环形结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer15求链表的中间节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer15求链表的中间节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer15链表中倒数第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer15链表中倒数第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer16反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer16反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer17合并两个排序的列表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer17合并两个排序的列表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer18树的子结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer18树的子结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer19二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer19二叉树的镜像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer22栈的压入弹出序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer22栈的压入弹出序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer23从上往下打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer23从上往下打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer25二叉树中和为某一路径的值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer25二叉树中和为某一路径的值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer27二叉搜索树与双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer27二叉搜索树与双向链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer39判断一棵树是不是平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer39判断一棵树是不是平衡二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offer/Offer57删除链表中重复的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer57删除链表中重复的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer5从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer5从尾到头打印链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer60把二叉树打印成多行.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer60把二叉树打印成多行.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Offer6根据前序中序遍历重建二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer6根据前序中序遍历重建二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/第39二叉树的深度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第39二叉树的深度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BiTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BiTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BiTreeNode.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BiTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ComplexNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ComplexNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/NodeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NodeInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/~$TreeNode.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer13在O1时间删除链表节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer13在O1时间删除链表节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer15判断一个单向链表是否形成了环形结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer15判断一个单向链表是否形成了环形结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer15求链表的中间节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer15求链表的中间节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer15链表中倒数第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer15链表中倒数第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer16反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer16反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer18树的子结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer18树的子结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer19二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer19二叉树的镜像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer22栈的压入弹出序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer22栈的压入弹出序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/第二遍/Offer5从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/第二遍/Offer5从尾到头打印链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CommonTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +26,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Offer23从上往下打印二叉树.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Offer23从上往下打印二叉树.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/第二遍/Offer23从上往下打印二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer23从上往下打印二叉树.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/Offer23从上往下打印二叉树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="第37两个链表的第一个公共节点.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="第39二叉树的深度.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/第39二叉树的深度.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="第50树中两个节点的最低公共祖先.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer57删除链表中重复的节点.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/Offer57删除链表中重复的节点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer17合并两个排序的列表.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/BiTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer22栈的压入弹出序列.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/第二遍/Offer22栈的压入弹出序列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -102,15 +135,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" />
-        <option value="$PROJECT_DIR$/src/offer/第38数字在排序数组中出现的次数.java" />
-        <option value="$PROJECT_DIR$/src/offer/第39二叉树的深度.java" />
         <option value="$PROJECT_DIR$/src/offer/第40数组中只出现一次的数字.java" />
         <option value="$PROJECT_DIR$/src/offer/第41和为s的两个数字VS和为s的连续正数序列.java" />
         <option value="$PROJECT_DIR$/src/offer/第42翻转单词顺序VS左旋转字符串.java" />
         <option value="$PROJECT_DIR$/src/offer/第47不用加减乘除做加法.java" />
         <option value="$PROJECT_DIR$/src/offer/第48把字符串转换成整数.java" />
-        <option value="$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java" />
         <option value="$PROJECT_DIR$/src/utils/BinaryTreeNode2.java" />
         <option value="$PROJECT_DIR$/src/utils/NodeWithParent.java" />
         <option value="$PROJECT_DIR$/src/第二遍/Offer8实现对公司员工年龄的排序.java" />
@@ -153,6 +182,10 @@
         <option value="$PROJECT_DIR$/src/第二遍/Offer15链表中倒数第k个节点.java" />
         <option value="$PROJECT_DIR$/src/第二遍/Offer16反转链表.java" />
         <option value="$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java" />
+        <option value="$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java" />
+        <option value="$PROJECT_DIR$/src/offer/Offer57删除链表中重复的节点.java" />
+        <option value="$PROJECT_DIR$/src/utils/CommonTree.java" />
+        <option value="$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java" />
       </list>
     </option>
   </component>
@@ -185,7 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,13 +255,13 @@
               <item name="Offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="第二遍" type="462c0819:PsiDirectoryNode" />
-              <item name="Offer7用两个栈实现队列.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Offer21包含min函数的栈.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,25 +293,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Offer22栈的压入弹出序列 (1)">
-    <configuration name="Offer18树的子结构" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第二遍.Offer18树的子结构" />
+  <component name="RunManager" selected="Application.第50树中两个节点的最低公共祖先">
+    <configuration name="第37两个链表的第一个公共节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.第37两个链表的第一个公共节点" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第二遍.*" />
+          <option name="PATTERN" value="offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Offer19二叉树的镜像" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第二遍.Offer19二叉树的镜像" />
+    <configuration name="第50树中两个节点的最低公共祖先" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.第50树中两个节点的最低公共祖先" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第二遍.*" />
+          <option name="PATTERN" value="offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Offer18树的子结构" />
-      <item itemvalue="Application.Offer19二叉树的镜像" />
       <item itemvalue="Application.Offer21包含min函数的栈" />
       <item itemvalue="Application.Offer22栈的压入弹出序列" />
       <item itemvalue="Application.Offer22栈的压入弹出序列 (1)" />
+      <item itemvalue="Application.第37两个链表的第一个公共节点" />
+      <item itemvalue="Application.第50树中两个节点的最低公共祖先" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.第50树中两个节点的最低公共祖先" />
+        <item itemvalue="Application.第37两个链表的第一个公共节点" />
         <item itemvalue="Application.Offer22栈的压入弹出序列 (1)" />
         <item itemvalue="Application.Offer22栈的压入弹出序列" />
         <item itemvalue="Application.Offer21包含min函数的栈" />
-        <item itemvalue="Application.Offer19二叉树的镜像" />
-        <item itemvalue="Application.Offer18树的子结构" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176422000" />
+    <option name="totallyTimeSpent" value="177674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,12 +457,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32551724" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32551724" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -441,55 +474,77 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32689655" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1875862" visible="true" weight="0.30613893" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1875862" visible="true" weight="0.3206785" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32551724" />
       <window_info id="Structure" order="1" sideWeight="0.8124138" side_tool="true" weight="0.30129242" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60275865" />
       <window_info id="Favorites" order="6" sideWeight="0.8124138" side_tool="true" weight="0.17851374" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="PlantUML" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="PlantUML" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" sideWeight="0.8124138" side_tool="true" weight="0.17851374" />
+      <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3295082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1875862" visible="true" weight="0.30613893" />
       <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32689655" />
+      <window_info id="Structure" order="1" sideWeight="0.8124138" side_tool="true" weight="0.30129242" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.32956383" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.60275865" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="4" visible="true" weight="0.24962178" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32965517" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32551724" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Statistic" order="13" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.49931034" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32551724" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32767403" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32956383" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1994302" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32767403" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20274636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1994302" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48860398" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32767403" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32767403" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32956383" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -628,34 +683,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer11数值的整数次方.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer10二进制中1的个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer12打印1到最大的n位数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Offer20顺时针打印矩阵.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/第二遍/Offer12任意两个整数的加法.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
@@ -735,26 +762,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/NodeInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/LinkList.java" />
     <entry file="file://$PROJECT_DIR$/src/utils/NodeWithParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CommonTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -841,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/BiTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Offer18树的子结构.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -878,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Offer23从上往下打印二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="405">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,17 +969,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java">
+    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer23从上往下打印二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer23从上往下打印二叉树.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/BiTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第37两个链表的第一个公共节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Offer57删除链表中重复的节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CommonTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/第二遍/Offer17合并两个排序的列表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第39二叉树的深度.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/第50树中两个节点的最低公共祖先.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ package offer;
  * 要求找出这两个只出现一次的数字，要求时间复杂度是O(n)，空间复杂度是O(1)
  * //{2,4,3,6,3,2,5,5,}  4和6
  */
-public class 第40数组中只出现一次的数字 {
+public class Offer40数组中只出现一次的数字 {
     public static void main(String[] args) {
         int[] data = {2, 4, 3, 6, 3, 2, 5, 5};
         int[] num = findNumsAppearOnce(data);

@@ -3,7 +3,7 @@ package offer;
 import utils.BiTree;
 
 //输入一颗二叉树的根节点，求该数的深度。
-public class 第39二叉树的深度 {
+public class Offer39二叉树的深度 {
     public static void main(String[] args) {
         BiTree biTree = new BiTree();
         BiTree root = biTree.creatTree1();

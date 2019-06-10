@@ -8,7 +8,7 @@ import java.util.Map;
  * 去掉重复的字符后：str1="Wrstnt"
  * 考虑使用Map
  */
-public class 第35删除在第二个字符串中出现的字符 {
+public class Offer35删除在第二个字符串中出现的字符 {
     public static void main(String[] args) {
         StringBuffer str1 = new StringBuffer("We are student");
         StringBuffer str2 = new StringBuffer("aaeiou");

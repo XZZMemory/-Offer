@@ -5,7 +5,7 @@ package offer;
  * 对于数的运算只有两种，1.加减乘除，2.位运算 与或非异或左移右移
  * 不使用新的变量，交换两个变量的值
  */
-public class 第47不用加减乘除做加法 {
+public class Offer47不用加减乘除做加法 {
     public static void main(String[] args) {
         int num1 = 20;
         int num2 = 99;

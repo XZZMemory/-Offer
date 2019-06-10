@@ -5,36 +5,12 @@ import utils.CommonTree;
 import java.util.LinkedList;
 import java.util.List;
 
-public class 第50树中两个节点的最低公共祖先 {
+public class Offer50树中两个节点的最低公共祖先 {
     public static int result_flag = 0;
 
     public static void main(String[] args) {
-        //创建树
-        CommonTree root = new CommonTree();
-        root.info = 'A';
-        CommonTree B = new CommonTree();
-        B.info = 'B';
-        CommonTree C = new CommonTree();
-        C.info = 'C';
-        CommonTree D = new CommonTree();
-        D.info = 'D';
-        CommonTree E = new CommonTree();
-        E.info = 'E';
-        CommonTree F = new CommonTree();
-        F.info = 'F';
-        CommonTree G = new CommonTree();
-        G.info = 'G';
-        CommonTree H = new CommonTree();
-        H.info = 'H';
-        CommonTree I = new CommonTree();
-        I.info = 'I';
-        CommonTree J = new CommonTree();
-        J.info = 'J';
-        root.childs = new CommonTree[]{B, C};
-        B.childs = new CommonTree[]{D, E};
-        D.childs = new CommonTree[]{F, G};
-        E.childs = new CommonTree[]{H, I, J};
-        CommonTree lastCommonParent = getLastCommonParent(root, null, H);
+        List<CommonTree> list = CommonTree.create();
+        CommonTree lastCommonParent = getLastCommonParent(list.get(0), null, list.get(1));
         System.out.println("结果标识是：" + result_flag);
         if (lastCommonParent != null) {
             System.out.println("查找到的公共节点是：" + lastCommonParent.info);

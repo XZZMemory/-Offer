@@ -5,7 +5,7 @@ package offer;
  * 数组中某些数字是重复的，但不知道几个数字重复了，也不知道每个数字重复几次。请找出数组中任意一个重复的数字
  */
 // 比如长度是7的数组{2,3,1,0,4,5,3}，那么对应输出的重复的数字是2或者3
-public class 第51数组中重复的数字 {
+public class Offer51数组中重复的数字 {
     public static void main(String[] args) {
         int[] data = {2, 3, 1, 0, 4, 5, 7};
         int duplication = FindDuplication(data);

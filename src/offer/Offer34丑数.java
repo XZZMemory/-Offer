@@ -1,7 +1,7 @@
 //只包含因子2，3，5的数称作丑数，求按从小到大的顺序的第1500个丑数
 package offer;
 
-public class 第34丑数 {
+public class Offer34丑数 {
     public static void main(String[] args) {
         int index = 100;
         System.out.println("第" + index + "个丑数是：" + getUglyNumber(index));

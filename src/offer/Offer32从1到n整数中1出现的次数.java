@@ -3,7 +3,7 @@ package offer;
 
 import java.util.Scanner;
 //这个题目比较复杂，暂时没写
-public class 第32从1到n整数中1出现的次数 {
+public class Offer32从1到n整数中1出现的次数 {
     public static void main(String[] args)
     {
         System.out.println("请输入一个整数n：");

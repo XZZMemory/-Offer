@@ -3,7 +3,7 @@ package offer;
 import java.util.*;
 
 //这个根据
-public class 第33把数组排成最小的数 {
+public class Offer33把数组排成最小的数 {
 
     public static void main(String[] args) {
         System.out.println("请输入一组数字，以 , 隔开");

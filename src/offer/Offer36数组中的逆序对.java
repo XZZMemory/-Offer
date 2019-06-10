@@ -1,7 +1,7 @@
 //在数组中的两个数字如果前一个数字大于后面的的数字，则这两个数字组成一个逆序对，输入一个数组，求出这个数组中逆序对的总数
 package offer;
 
-public class 第36数组中的逆序对 {
+public class Offer36数组中的逆序对 {
     public static void main(String[] args) {
         int[] number = {7, 5, 6, 4};
         int[] copy = new int[number.length];

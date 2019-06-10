@@ -2,7 +2,7 @@ package offer;
 
 //题目一：输入一个英文句子，翻转单词中的顺序，但单词内字符的顺序不变。 I am a student. 变成 student. a am I
 //题目二：字符串的左旋操作是把字符串前面的若干字符转移到字符的尾部.abcdefg 和数字2 左旋2位得到：cdefgab
-public class 第42翻转单词顺序VS左旋转字符串 {
+public class Offer42翻转单词顺序VS左旋转字符串 {
     public static void main(String[] args) {
         char[] data = "I am a student.".toCharArray();
         reverseSentence(data);

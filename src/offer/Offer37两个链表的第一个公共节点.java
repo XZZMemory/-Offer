@@ -7,15 +7,15 @@ import utils.NodeInt;
 
 import java.util.Stack;
 
-public class 第37两个链表的第一个公共节点 {
+public class Offer37两个链表的第一个公共节点 {
     public static void main(String[] args) {
         int[] data1 = {1, 2, 3};
         int[] data2 = {4, 5, 6};
         int[] sameData = {7, 8, 9, 10};
         //带头结点的链表，数据是int型数据
-        NodeInt head1 = LinkList.creatList(data1);
-        NodeInt head2 = LinkList.creatList(data2);
-        NodeInt sameDataHead = LinkList.creatList(sameData);
+        NodeInt head1 = NodeInt.creatList(data1);
+        NodeInt head2 = NodeInt.creatList(data2);
+        NodeInt sameDataHead = NodeInt.creatList(sameData);
         NodeInt p = new NodeInt();
         for (p = head1; p.next != null; p = p.next) ;
         p.next = sameDataHead.next;
