@@ -1,11 +1,12 @@
 package first;
 
-import utils.NodeInt;
+import utils.NodeIntUtil;
+import utils.myObject.NodeInt;
 
 public class Offer57删除链表中重复的节点 {
     public static void main(String[] args) {
         int[] data = {1, 2, 3, 3, 3, 4, 4, 5};//1，2，5
-        NodeInt head = NodeInt.creatList(data);
+        NodeInt head = NodeIntUtil.creatList(data);
         head = deleteDulicaption(head);
     }
 

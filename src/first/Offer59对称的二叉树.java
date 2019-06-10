@@ -1,6 +1,6 @@
 package first;
 
-import utils.BiTree;
+import utils.myObject.BiTree;
 
 public class Offer59对称的二叉树 {
     public static void main(String[] args) {

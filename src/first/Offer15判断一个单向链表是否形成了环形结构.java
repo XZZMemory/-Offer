@@ -1,11 +1,12 @@
 package first;
 
-import utils.Node;
+import utils.NodeUtil;
+import utils.myObject.Node;
 
 public class Offer15判断一个单向链表是否形成了环形结构 {
     public static void main(String[] args) {
-        Node head1 = Node.creatList(); //无环
-        Node head2 = Node.creatListCircle();    //有环
+        Node head1 = NodeUtil.creatList(); //无环
+        Node head2 = NodeUtil.creatListCircle();    //有环
         boolean isCircle1 = isCircle(head1);
         boolean isCircle2 = isCircle(head2);
     }

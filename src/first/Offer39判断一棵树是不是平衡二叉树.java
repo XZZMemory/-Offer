@@ -1,11 +1,11 @@
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 public class Offer39判断一棵树是不是平衡二叉树 {
     public static void main(String[] args) {
-        BiTree biTree = new BiTree();
-        BiTree root = biTree.creatTree1();
+        BiTree root = BiTreeUtil.creatTree1();
         //root=null;测试用例1-根节点为空
         //root.left=null;//测试用例2，只有一个根节点
         root.right = null;//测试用例2

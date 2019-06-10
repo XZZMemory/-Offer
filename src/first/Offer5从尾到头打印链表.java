@@ -1,12 +1,13 @@
 package first;//输入一个链表的头结点，从尾到头打印出每个节点的值(从尾到头，栈的特点，考虑用栈)
 
-import utils.Node;
+import utils.NodeUtil;
+import utils.myObject.Node;
 
 import java.util.Stack;
 
 public class Offer5从尾到头打印链表 {
     public static void main(String[] args) {
-        Node head = Node.creatList();
+        Node head = NodeUtil.creatList();
         System.out.print("利用栈，从尾到头访问：");
         printListReversinglyIterratively(head);
         System.out.println();

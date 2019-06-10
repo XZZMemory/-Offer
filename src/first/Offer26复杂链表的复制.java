@@ -2,22 +2,23 @@
 //指向下一节点的指针和指向任意节点的指针
 package first;
 
-import utils.ComplexNode;
+import utils.ComplexNodeUtil;
+import utils.myObject.ComplexNode;
 
 public class Offer26复杂链表的复制 {
     public static void main(String[] args) {
         System.out.println("原始复杂链表是：");
-        ComplexNode head = ComplexNode.creatComplexNode();
-        head.traversalOfComplexNode(head);
+        ComplexNode head = ComplexNodeUtil.creatComplexNode();
+        ComplexNodeUtil.traversalOfComplexNode(head);
         System.out.println("把每个节点复制一遍之后是：");
         cloneNodes(head);
         connectSiblingNodes(head);
-        head.traversalOfComplexNode(head);
+        ComplexNodeUtil.traversalOfComplexNode(head);
         ComplexNode head2 = reConnectNodes(head);
         System.out.println("复制之后头节点链表是：");
-        head.traversalOfComplexNode(head);
+        ComplexNodeUtil.traversalOfComplexNode(head);
         System.out.println("复制之后复制的头节点链表是");
-        head2.traversalOfComplexNode(head2);
+        ComplexNodeUtil.traversalOfComplexNode(head2);
     }
 
     //分为三步，next，silbing-复制下一节点，分离

@@ -1,6 +1,7 @@
 package second;
 
-import utils.NodeInt;
+import utils.NodeIntUtil;
+import utils.myObject.NodeInt;
 
 /**
  * created by memory
@@ -12,12 +13,12 @@ public class Offer17合并两个排序的列表 {
         int[] number1 = {1, 3, 5, 6, 7};
         int[] number2 = {2, 5, 8, 9};
         /*创建的是带头节点的链表*/
-        NodeInt head1 = NodeInt.creatList(number1);
-        NodeInt.traverseList(head1);
-        NodeInt head2 = NodeInt.creatList(number2);
-        NodeInt.traverseList(head2);
+        NodeInt head1 = NodeIntUtil.creatList(number1);
+        NodeIntUtil.traverseList(head1);
+        NodeInt head2 = NodeIntUtil.creatList(number2);
+        NodeIntUtil.traverseList(head2);
         NodeInt head = merge(head1, head2);
-        NodeInt.traverseList(head);
+        NodeIntUtil.traverseList(head);
     }
 
     public static NodeInt merge(NodeInt head1, NodeInt head2) {

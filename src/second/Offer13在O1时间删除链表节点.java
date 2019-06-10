@@ -1,6 +1,7 @@
 package second;
 
-import utils.Node;
+import utils.NodeUtil;
+import utils.myObject.Node;
 
 /**
  * created by memory
@@ -8,14 +9,14 @@ import utils.Node;
  */
 public class Offer13在O1时间删除链表节点 {
     public static void main(String[] args) {
-        Node head = Node.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        Node head = NodeUtil.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
         Node p = head.next;
         while (!(p.info == 'e'))
             p = p.next;
         p = null;
-        Node.traverseList(head);//输出链表信息
+        NodeUtil.traverseList(head);//输出链表信息
         deleteNode(head, p);
-        Node.traverseList(head);//输出链表信息
+        NodeUtil.traverseList(head);//输出链表信息
 
     }
 

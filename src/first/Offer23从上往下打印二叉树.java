@@ -1,14 +1,15 @@
 //二叉树的层次遍历
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Offer23从上往下打印二叉树 {
     public static void main(String[] args) {
-        BiTree biTree = BiTree.creatTree1();
+        BiTree biTree = BiTreeUtil.creatTree1();
         hierarchicalTraversalOfBiTree(biTree);
     }
 

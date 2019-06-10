@@ -1,12 +1,13 @@
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 /* 定义两棵二叉树A和B，判断B是不是A的子结构*/
 public class Offer18树的子结构 {
     public static void main(String[] args) {
-        BiTree biTree1 = BiTree.creatTree1();
-        BiTree biTree2 = BiTree.creatTree2();
+        BiTree biTree1 = BiTreeUtil.creatTree1();
+        BiTree biTree2 = BiTreeUtil.creatTree2();
         System.out.println(isSubTree(biTree1, biTree2));
     }
 

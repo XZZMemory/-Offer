@@ -5,7 +5,8 @@ package second;
  * on 2019/6/3 下午8:37
  */
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 /**
  * 题目：输入一个二叉树，输出他的镜像
@@ -15,7 +16,7 @@ import utils.BiTree;
  */
 public class Offer19二叉树的镜像 {
     public static void main(String[] args) {
-        BiTree tree = BiTree.creatTree3();
+        BiTree tree = BiTreeUtil.creatTree3();
         mirrorRecu(tree);
     }
 

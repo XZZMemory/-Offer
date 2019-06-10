@@ -1,6 +1,7 @@
 package second;
 
-import utils.Node;
+import utils.NodeUtil;
+import utils.myObject.Node;
 
 /**
  * created by memory
@@ -9,8 +10,8 @@ import utils.Node;
  */
 public class Offer15求链表的中间节点 {
     public static void main(String[] args) {
-        Node head = Node.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
-        Node.traverseList(head);
+        Node head = NodeUtil.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        NodeUtil.traverseList(head);
         System.out.println(getMiddle(head).info);
 
     }

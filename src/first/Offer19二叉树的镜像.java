@@ -1,6 +1,7 @@
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 import java.util.Stack;
 
@@ -12,10 +13,10 @@ import java.util.Stack;
  */
 public class Offer19二叉树的镜像 {
     public static void main(String[] args) {
-        BiTree biTree = BiTree.creatTree3();
-        BiTree.inOrder(biTree);
+        BiTree biTree = BiTreeUtil.creatTree3();
+        BiTreeUtil.inOrder(biTree);
         mirrorCircu(biTree);
-        BiTree.inOrder(biTree);
+        BiTreeUtil.inOrder(biTree);
     }
 
     /*使用递归*/

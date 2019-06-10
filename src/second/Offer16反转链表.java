@@ -1,6 +1,7 @@
 package second;
 
-import utils.Node;
+import utils.NodeUtil;
+import utils.myObject.Node;
 
 /**
  * created by memory
@@ -10,10 +11,10 @@ import utils.Node;
  * 链表带头结点*/
 public class Offer16反转链表 {
     public static void main(String[] args) {
-        Node head = Node.creatList();
-        Node.traverseList(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
+        Node head = NodeUtil.creatList();
+        NodeUtil.traverseList(head);//类方法可以直接用类名.方法访问，不需要类的实例就可以访问
         Node head2 = reverse(head);
-        Node.traverseList(head2);
+        NodeUtil.traverseList(head2);
     }
 
     public static Node reverse(Node head) {

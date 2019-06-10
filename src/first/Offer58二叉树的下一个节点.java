@@ -1,6 +1,6 @@
 package first;
 
-import utils.NodeWithParent;
+import utils.myObject.NodeWithParent;
 
 public class Offer58二叉树的下一个节点 {
     public static void main(String[] args) {

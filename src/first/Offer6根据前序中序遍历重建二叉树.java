@@ -1,6 +1,7 @@
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 //需要改
 //import java.util.stream;
@@ -10,7 +11,7 @@ public class Offer6根据前序中序遍历重建二叉树 {
         char[] inOrder = {'4', '7', '2', '1', '5', '3', '8', '6'};
         BiTree t = new BiTree();
         creatTree(t, preOrder, inOrder);
-        BiTree.postOrder(t);
+        BiTreeUtil.postOrder(t);
     }
 
     public static void creatTree(BiTree root, char[] preOrderArray, char[] inOrderArray) {

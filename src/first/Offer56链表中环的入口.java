@@ -1,6 +1,6 @@
 package first;
 
-import utils.NodeInt;
+import utils.myObject.NodeInt;
 
 //一个链表中有环，如何找出环的入口节点
 public class Offer56链表中环的入口 {

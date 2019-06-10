@@ -1,6 +1,7 @@
 package first;
 
-import utils.CommonTree;
+import utils.CommonTreeUtil;
+import utils.myObject.CommonTree;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +10,7 @@ public class Offer50树中两个节点的最低公共祖先 {
     public static int result_flag = 0;
 
     public static void main(String[] args) {
-        List<CommonTree> list = CommonTree.create();
+        List<CommonTree> list = CommonTreeUtil.create();
         CommonTree lastCommonParent = getLastCommonParent(list.get(0), null, list.get(1));
         System.out.println("结果标识是：" + result_flag);
         if (lastCommonParent != null) {

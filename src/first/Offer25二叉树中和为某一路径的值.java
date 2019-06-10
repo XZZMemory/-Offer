@@ -1,13 +1,14 @@
 package first;
 
-import utils.BiTree;
+import utils.BiTreeUtil;
+import utils.myObject.BiTree;
 
 import java.util.Stack;
 
 //从树的跟节点开始往下一直到叶节点所经过的节点形成的一条路径。
 public class Offer25二叉树中和为某一路径的值 {
     public static void main(String[] args) {
-        BiTree biTree = BiTree.creatTree3();
+        BiTree biTree = BiTreeUtil.creatTree3();
         Stack<Integer> stack = new java.util.Stack<Integer>();
         findPath(biTree, 22, 0, stack);
     }
