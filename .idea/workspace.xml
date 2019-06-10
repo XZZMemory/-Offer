@@ -280,14 +280,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.第50树中两个节点的最低公共祖先">
+  <component name="RunManager" selected="Application.Offer22栈的压入弹出序列">
     <configuration name="第37两个链表的第一个公共节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.第37两个链表的第一个公共节点" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,40 +298,40 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Offer21包含min函数的栈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第二遍.Offer21包含min函数的栈" />
+      <option name="MAIN_CLASS_NAME" value="second.Offer21包含min函数的栈" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第二遍.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Offer22栈的压入弹出序列 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Offer22栈的压入弹出序列" />
-      <module name="剑指Offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Offer22栈的压入弹出序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第二遍.Offer22栈的压入弹出序列" />
+      <option name="MAIN_CLASS_NAME" value="second.Offer22栈的压入弹出序列" />
       <module name="剑指Offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第二遍.*" />
+          <option name="PATTERN" value="second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Offer22栈的压入弹出序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first.Offer22栈的压入弹出序列" />
+      <module name="剑指Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,10 +395,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer22栈的压入弹出序列" />
         <item itemvalue="Application.第50树中两个节点的最低公共祖先" />
         <item itemvalue="Application.第37两个链表的第一个公共节点" />
         <item itemvalue="Application.Offer22栈的压入弹出序列 (1)" />
-        <item itemvalue="Application.Offer22栈的压入弹出序列" />
         <item itemvalue="Application.Offer21包含min函数的栈" />
       </list>
     </recent_temporary>
