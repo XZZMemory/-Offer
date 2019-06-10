@@ -7,6 +7,13 @@ import utils.myObject.BiTree;
  * on 2019/6/10 下午8:55
  */
 public class BiTreeUtil {
+
+    public static boolean isLeaf(BiTree biTree) {
+        if ((biTree.right == null) && (biTree.left == null))
+            return true;
+        return false;
+    }
+
     public static BiTree creatTree1() {
         BiTree root = new BiTree(8);
         BiTree left1 = new BiTree(8);

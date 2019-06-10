@@ -10,11 +10,11 @@ import java.util.Queue;
 public class Offer23从上往下打印二叉树 {
     public static void main(String[] args) {
         BiTree biTree = BiTreeUtil.creatTree1();
-        hierarchicalTraversalOfBiTree(biTree);
+        levelTraverse(biTree);
     }
 
     //Queue是一个集合接口。在java5中新增加了java.util.Queue接口，用以支持队列的常见操作。该接口扩展了java.util.Collection接口。
-    public static void hierarchicalTraversalOfBiTree(BiTree root) {
+    public static void levelTraverse(BiTree root) {
         Queue<BiTree> queue = new LinkedList<BiTree>();
         if (root == null) {
             return;

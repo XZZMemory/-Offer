@@ -13,12 +13,4 @@ public class BiTree {
 
     public BiTree() {
     }
-
-    public static boolean isLeaf(BiTree biTree) {
-        if ((biTree.right == null) && (biTree.left == null))
-            return true;
-        return false;
-    }
-
-
 }
