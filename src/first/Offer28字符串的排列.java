@@ -1,6 +1,6 @@
 package first;
 
-//输入一个字符串，打印出该字符串中字符的所有排列 abc
+/*输入一个字符串，打印出该字符串中字符的所有排列 abc*/
 public class Offer28字符串的排列 {
     public static void main(String[] args) {
         char[] item = "abc".toCharArray();
@@ -8,7 +8,7 @@ public class Offer28字符串的排列 {
     }
 
     public static void permutation(char[] item, int begin) {
-        if (item == null || item.length == 0)
+        if (item == null || item.length == 0 || begin >= item.length)
             return;
         if (begin >= item.length)//说明到末尾了,
             System.out.println(item);

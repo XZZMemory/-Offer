@@ -11,6 +11,10 @@ public class Offer26复杂链表的复制 {
     public static void main(String[] args) {
         System.out.println("原始复杂链表是：");
         ComplexNode head = ComplexNodeUtil.creatComplexNode();
+        ComplexNodeUtil.traversalOfComplexNode(head);
+        ComplexNode newHead = cloneNodes(head);
+        ComplexNodeUtil.traversalOfComplexNode(newHead);
+
     }
 
     public static ComplexNode cloneNodes(ComplexNode head) {
@@ -48,7 +52,9 @@ public class Offer26复杂链表的复制 {
         while (p != null) {
             next = p.next;
             nextNext = p.next.next;
-            next.sibling = p.sibling.next;
+            if (p.sibling != null) {
+                next.sibling = p.sibling.next;
+            }
             p = nextNext;
         }
     }
@@ -60,13 +66,18 @@ public class Offer26复杂链表的复制 {
         }
         ComplexNode newHead = head.next;
         ComplexNode p = head;
-        ComplexNode q;
+        ComplexNode next;
         ComplexNode pNew;
-        ComplexNode qNew;
         while (p != null) {
             pNew = p.next;
+            next = pNew.next;
             p.next = pNew.next;
-            pNew.next = null;
+            if (next != null) {
+                pNew.next = next.next;
+            } else {
+                pNew.next = null;
+            }
+            p = next;
         }
         return newHead;
     }
