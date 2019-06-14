@@ -6,7 +6,7 @@ public class Offer29数组中出现次数超过一半的数字 {
         if (checkInvalidArray(numbers))
             System.out.println("输入的数组无效");
         else {
-            int index = moreThanHalfNum2(numbers);
+            int index = moreThanHalfNum(numbers);
             System.out.println("输入的数组中出现次数超过数组长度一半的数字是: " + index);
         }
     }
@@ -14,15 +14,18 @@ public class Offer29数组中出现次数超过一半的数字 {
     /* 1. 基于快速排序完成*/
     public static int moreThanHalfNum(int[] numbers) {
         int index = partition(numbers, 0, numbers.length - 1);
+        System.out.println(index);
         int middle = (int) ((numbers.length - 1) / 2);
         int start = 0;
         int end = numbers.length - 1;
         while (index != middle) {
-            if (index < middle)
+            if (index < middle) {
                 index = partition(numbers, index + 1, end);
-            else if (index > middle)
+                System.out.println(index);
+            } else if (index > middle) {
                 index = partition(numbers, start, index - 1);
-
+                System.out.println(index);
+            }
         }
         if (checkMoreThanHalf(numbers, numbers[index]))
             return numbers[index];

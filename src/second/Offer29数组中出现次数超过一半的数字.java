@@ -37,16 +37,23 @@ public class Offer29数组中出现次数超过一半的数字 {
 
     /* 1. 基于快速排序完成*/
     public static int moreThanHalfNum(int[] numbers) {
-        if (!isInvalid(numbers)) {
-            return -1;
+        int start = 0;
+        int end = numbers.length - 1;
+        int index = quickSort(numbers, start, end);
+        /*考虑数组特性，中间位置是：numbers.length -1) / 2*/
+        int middle = (numbers.length - 1) / 2;
+        while (index != middle) {
+            if (index < middle) {
+                start = index;
+            } else {
+                end = index-1;
+            }
+            index = quickSort(numbers, start, end);
         }
-        int num = partion(numbers, 0, numbers.length - 1);
-        System.out.println(num);
-        return -1;
-
+        return index;
     }
 
-    public static int partion(int[] numbers, int start, int end) {
+    public static int quickSort(int[] numbers, int start, int end) {
         int middle = (start + end) / 2;
         int flag = numbers[middle];
         while (start < end) {
@@ -64,14 +71,7 @@ public class Offer29数组中出现次数超过一半的数字 {
                 --end;
             }
         }
-        if (start == (numbers.length + 1) / 2) {
-            return numbers[start];
-        } else if (start <= (numbers.length + 1) / 2) {
-            return partion(numbers, start, numbers.length - 1);
-        } else {
-            return partion(numbers, 0, start);
-        }
-
+        return start;
     }
 
     /* 2. 基于数组特点查找，遍历数组，找到出现次数超过一半的数字超过*/
