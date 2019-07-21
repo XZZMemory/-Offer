@@ -26,8 +26,8 @@ public class BiTreeUtil {
         root.right = right1;
         left1.left = left2;
         left1.right = right2;
-        right2.left = left3;
-        right2.right = right3;
+        right1.left = left3;
+        right1.right = right3;
         return root;
     }
 

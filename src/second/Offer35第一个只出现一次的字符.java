@@ -18,6 +18,11 @@ public class Offer35第一个只出现一次的字符 {
         if (str == null || str.length() < 1) {
             return null;
         }
+        /**
+         * TreeMap的顺序是自然顺序（如整数从小到大），也可以指定比较函数。但不是插入的顺序。 
+         * LinkedHashMap，内部有一个链表，保持插入的顺序。迭代的时候，也是按照插入顺序迭代。
+         * HashMap并不能保证按插入的顺序
+         */
         Map<Character, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < str.length(); i++) {
             Character key = str.charAt(i);
