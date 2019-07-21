@@ -30,7 +30,7 @@ public class Offer37两个链表的第一个公共节点 {
 
     //解法1-时间复杂度O(m+n),不需要辅助空间
     public static NodeInt findFirstCommonNode1(NodeInt head1, NodeInt head2) {
-        NodeInt sameNode = new NodeInt();
+        NodeInt sameNode;
         int length1 = getListLength(head1);
         int length2 = getListLength(head2);
         if (length1 == 0 || length2 == 0) {

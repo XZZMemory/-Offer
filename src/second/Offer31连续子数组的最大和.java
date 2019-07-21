@@ -6,7 +6,7 @@ package second;
  */
 public class Offer31连续子数组的最大和 {
     public static void main(String[] args) {
-        int[] numbers = {1, -2, 3, 10, -4, 7, 2, -5,6};
+        int[] numbers = {1, -2, 3, 10, -4, 7, 2, -5, 6};
         System.out.println(find(numbers));
     }
 
