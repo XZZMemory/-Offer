@@ -1,16 +1,24 @@
 package first;
 
-/** 题目: 输入一个递增排序的数组和一个数字s。在数组中查找两个数，使得它们的和正好是s。如果有多对数字的和等于s，输出任意一对即可。*/
+
+/**
+ * 两个题目
+ * 题目1: 输入一个递增排序的数组和一个数字s。在数组中查找两个数，使得它们的和正好是s。如果有多对数字的和等于s，输出任意一对即可。
+ * 题目2：输入一个正数，打印出所有和为s的连续正数序列 1+2+3+4+5=4+5+6=7+8=15
+ */
 public class Offer41和为s的两个数字VS和为s的连续正数序列 {
     public static void main(String[] args) {
         int[] data = {1, 2, 4, 7, 11, 15};
         int sum = 100;
-        int[] num = new int[2];
-        findNumberWithSum(data, sum, num);
+        int[] num = findTwoNumbers(data, sum);
         findContinuousSequence(9);
     }
 
-    public static void findNumberWithSum(int[] data, int sum, int[] num) {
+    /**
+     * 题目1: 输入一个递增排序的数组和一个数字s。在数组中查找两个数，使得它们的和正好是s。如果有多对数字的和等于s，输出任意一对即可。
+     */
+    public static int[] findTwoNumbers(int[] data, int sum) {
+        int[] num = new int[2];
         int start = 0;
         int end = data.length - 1;
         int currentsum;
@@ -23,13 +31,15 @@ public class Offer41和为s的两个数字VS和为s的连续正数序列 {
             else {
                 num[0] = data[start];
                 num[1] = data[end];
-                break;
+                return num;
             }
         }
-        num = null;
+        return null;
     }
 
-    //输入一个正数，打印出所有和为s的连续正数序列 1+2+3+4+5=4+5+6=7+8=15
+    /**
+     * 题目2：输入一个正数，打印出所有和为s的连续正数序列 1+2+3+4+5=4+5+6=7+8=15
+     */
     public static void findContinuousSequence(int sum) {
         if (sum < 3)
             return;
@@ -41,17 +51,17 @@ public class Offer41和为s的两个数字VS和为s的连续正数序列 {
             if (currentSum == sum) {
                 printContinuousSequence(start, end);
                 System.out.println("相等");
-                end++;
+                ++end;
                 currentSum += end;
             } else if (currentSum < sum) {
                 while ((currentSum < sum) && (end <= middle)) {
-                    end++;
+                    ++end;
                     currentSum += end;
                 }
             } else {
-                while ((currentSum > sum) && (end <= middle)) {
+                while ((currentSum > sum) && (start <= end)) {
                     currentSum -= start;
-                    start++;
+                    ++start;
                 }
             }
         }

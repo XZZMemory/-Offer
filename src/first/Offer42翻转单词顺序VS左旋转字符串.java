@@ -6,20 +6,19 @@ public class Offer42翻转单词顺序VS左旋转字符串 {
     public static void main(String[] args) {
         char[] data = "I am a student.".toCharArray();
         reverseSentence(data);
-        treversalOfArray(data);
+        traversalOfArray(data);
         System.out.println();
         char[] data2 = "abcdefg".toCharArray();
         data2 = null;
         leftRotateString(data2, 2);
-        treversalOfArray(data2);
+        traversalOfArray(data2);
     }
 
-    public static void treversalOfArray(char[] data) {
+    public static void traversalOfArray(char[] data) {
         if (data == null) {
             System.out.println("字符数组为空！");
             return;
         }
-
         for (int i = 0; i < data.length; i++)
             System.out.print(data[i]);
     }

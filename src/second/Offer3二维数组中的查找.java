@@ -63,7 +63,7 @@ public class Offer3二维数组中的查找 {
         return false;
     }
 
-    /* 2.1 从坐下角开始，递归*/
+    /* 2.1 从左下角开始，递归*/
     public static boolean findDataLeftRecursively(int[][] matrix, int number) {
         if (matrix == null || matrix.length < 1 || matrix[0].length < 1) {
             return false;
