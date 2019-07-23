@@ -15,11 +15,30 @@ public class Offer39判断一棵树是不是平衡二叉树 {
         System.out.println(isBalanced2(root));
     }
 
-    public static boolean isBanlanced(BiTree root) {
+    /**
+     * 1.1 传统做法，时间一个节点会被遍历多次时间效率低  先根遍历
+     */
+    public static boolean isBalanced1(BiTree root) {
         if (root == null) {
             return true;
         }
-        if (isBanlanced(root.left) && isBanlanced(root.right)) {
+        int leftDepth = getDepth(root.left);
+        int rightDepth = getDepth(root.right);
+        if (Math.abs(leftDepth - rightDepth) <= 1) {
+            return (isBalanced1(root.left) && isBalanced1(root.right));
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * 1.2  传统做法，时间一个节点会被遍历多次时间效率低  后根遍历
+     */
+    public static boolean isBanlanced2(BiTree root) {
+        if (root == null) {
+            return true;
+        }
+        if (isBanlanced2(root.left) && isBanlanced2(root.right)) {
             int left = getDepth(root.left);
             int right = getDepth(root.right);
             int dif = Math.abs(left - right);
@@ -42,7 +61,7 @@ public class Offer39判断一棵树是不是平衡二叉树 {
     }
 
     /**
-     * 3. 考虑使用对象，这样程序栈之间能够传递信息
+     * 2. 考虑使用对象，这样程序栈之间能够传递信息，所有的节点均只遍历一次。在遍历节点时，根据子节点的高度获取到当前节点的高度
      */
     public static boolean isBalanced2(BiTree root) {
         if (root == null || (root.left == null && root.right == null)) {

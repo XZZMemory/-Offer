@@ -19,6 +19,9 @@ public class Offer39二叉树的深度 {
         }
         int left = getDepth(root.left);
         int right = getDepth(root.right);
+        System.out.println("根："+root.info);
+        System.out.println("左："+left);
+        System.out.println("右："+right);
         return left > right ? left + 1 : right + 1;
     }
 }
