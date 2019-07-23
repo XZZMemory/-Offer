@@ -25,31 +25,33 @@ public class Offer48把字符串转换成整数 {
             return 0;
         }
         int num = 0;
-        boolean num_flag = false;
+        boolean numFlag = false;
         for (int i = 0; i < str.length(); i++) {
+            char currentChar = str.charAt(i);
             if (i == 0) {
-                if (str.charAt(i) == '-')
-                    num_flag = true;
-                else if (str.charAt(i) == '+') ;
-                else if (str.charAt(i) >= '0' && str.charAt(i) <= '9')
-                    num = num * 10 + (int) str.charAt(i) - (int) '0';
-                else//非法数据，结束程序
+                if (currentChar == '-') {
+                    numFlag = true;
+                } else if (currentChar == '+') ;
+                else if (currentChar >= '0' && currentChar <= '9') {
+                    num = num * 10 + (int) currentChar - (int) '0';
+                } else//非法数据，结束程序
                 {
                     flag = 2;
                     return 0;
                 }
             } else {
-                if (str.charAt(i) >= '0' && str.charAt(i) <= '9')
-                    num = num * 10 + (int) str.charAt(i) - (int) '0';
-                else//非法数据，结束程序
+                if (currentChar >= '0' && currentChar <= '9') {
+                    num = num * 10 + (int) currentChar - (int) '0';
+                } else//非法数据，结束程序
                 {
                     flag = 2;
                     return 0;
                 }
             }
         }
-        if (num_flag == true)
+        if (numFlag == true) {
             num = -num;
+        }
         return num;
     }
 }

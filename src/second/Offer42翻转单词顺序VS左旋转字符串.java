@@ -69,7 +69,8 @@ public class Offer42翻转单词顺序VS左旋转字符串 {
                 ++end;
             }
             if (end <= data.length) {
-                reverse(data, start, --end );
+                /*注意  --end 和 end-1 的区别*/
+                reverse(data, start, end - 1);
                 ++end;
                 start = end;
             }
@@ -82,12 +83,15 @@ public class Offer42翻转单词顺序VS左旋转字符串 {
      */
     public static void leftRotateString(char[] data, int index) {
         if (data == null || data.length < 2 || index >= data.length) {
-            System.out.println("参数异常！");
+            System.out.println("参数异常!!!");
             return;
         }
+        /* 数据个数 data.length()
+         * 下标 [data.length()-index ，data.length()-1]
+         * 下标 [0,data.length()-index-1] */
         reverse(data, 0, data.length - 1);
         reverse(data, 0, data.length - 1 - index);
-        reverse(data, data.length - index, data.length);
+        reverse(data, data.length - index, data.length - 1);
     }
 
     public static void reverse(char[] data, int start, int end) {

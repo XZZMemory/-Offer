@@ -1,19 +1,21 @@
 package first;
 
-//把n个骰子扔在地上，所有骰子朝上的一面点数之和为s。输入n，打印出所有可能的值出现的概率
-//也可以理解为，一个骰子扔n次
+/**
+ * 把n个骰子扔在地上，所有骰子朝上的一面点数之和为s。输入n，打印出所有可能的值出现的概率，也可以理解为，一个骰子扔n次
+ */
 public class Offer43n个骰子的点数 {
     private final static int maxValue = 6;//类常量
 
     public static void main(String[] args) {
         int times = 2;
-        printProbability2(times);
+        printProRecur(times);
     }
 
-    /*
-    基于递归实现，时间效率低。
-    这种代码思路简单，实现起来容易，但由于是基于递归实现的，有很多计算是重复的，从而导致当number变大时，性能慢的让人不能接受。*/
-    public static void printProbability1(int times) {
+    /**
+     * 基于递归实现，时间效率低。
+     * 这种代码思路简单，实现起来容易，但由于是基于递归实现的，有很多计算是重复的，从而导致当number变大时，性能慢的让人不能接受。
+     */
+    public static void printProCir(int times) {
         int arrayLength = times * maxValue - times + 1;// 6-6*times
         int[] array = new int[arrayLength];
         probability(times, array);
@@ -42,7 +44,7 @@ public class Offer43n个骰子的点数 {
         }
     }
 
-    public static void printProbability2(int number) {
+    public static void printProRecur(int number) {
         //基于循环求骰子点数
         int g_maxValue = 6;
         if (number < 1) {
