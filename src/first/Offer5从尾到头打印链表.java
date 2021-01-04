@@ -8,11 +8,13 @@ import java.util.Stack;
 
 
 /**
- * 问题:输入一个链表的头结点，从尾到头打印出每个节点的值(从尾到头，栈的特点，考虑用栈)
+ * 问题:输入一个链表的头结点,从尾到头打印出每个节点的值(从尾到头,栈的特点,考虑用栈)
  */
 public class Offer5从尾到头打印链表 {
     public static void main(String[] args) {
-        Node head = NodeUtil.createListWithHead();
+        Node head = NodeUtil.createListWithoutHead();
+        System.out.print("原始链表信息: ");
+        NodeUtil.traverseListWithoutHead(head);
         System.out.print("利用栈特性,从尾到头访问: ");
         printListReverselyWithStack(head);
         System.out.println();
@@ -23,7 +25,7 @@ public class Offer5从尾到头打印链表 {
     public static void printListReverselyWithStack(Node head) {
         if (head == null || head.next == null)
             return;
-        Node p = head.next;
+        Node p = head;
         Stack<Node> stack = new Stack<>();
         while (p != null) {
             stack.push(p);
@@ -40,16 +42,10 @@ public class Offer5从尾到头打印链表 {
             System.out.print(stack.pop().info + " ");
     }
 
-    public static void printListReverselyRecursively(Node head) {
-        if (Objects.isNull(head) || Objects.isNull(head.next))
+    public static void printListReverselyRecursively(Node p) {
+        if (Objects.isNull(p))
             return;
-        printListReverselyRecursivelyWithoutHead(head.next);
-    }
-
-    public static void printListReverselyRecursivelyWithoutHead(Node p) {
-        if (p == null)
-            return;
-        printListReverselyRecursivelyWithoutHead(p.next);
+        printListReverselyRecursively(p.next);
         System.out.print(p.info + " ");
     }
 }

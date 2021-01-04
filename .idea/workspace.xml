@@ -3,20 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="eb212ad7-501f-410f-b4b6-8d6669e5b0bb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/Offer13在O1时间删除链表节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer13在O1时间删除链表节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/Offer15判断一个单向链表是否形成了环形结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer15判断一个单向链表是否形成了环形结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/Offer15求链表的中间节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer15求链表的中间节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/Offer15链表中倒数第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer15链表中倒数第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/Offer16反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer16反转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer13在O1时间删除链表节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer13在O1时间删除链表节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15判断一个单向链表是否形成了环形结构.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15判断一个单向链表是否形成了环形结构.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15求链表的中间节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15求链表的中间节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15链表中倒数第k个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer15链表中倒数第k个节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer16反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer16反转链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer5从尾到头打印链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/first/Offer5从尾到头打印链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer13在O1时间删除链表节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer13在O1时间删除链表节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15判断一个单向链表是否形成了环形结构.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15判断一个单向链表是否形成了环形结构.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15求链表的中间节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15求链表的中间节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15链表中倒数第k个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer15链表中倒数第k个节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer16反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer16反转链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer5从尾到头打印链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/second/Offer5从尾到头打印链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/NodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/utils/NodeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指Offer/utils/myObject/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/剑指Offer/utils/myObject/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer13在O1时间删除链表节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer13在O1时间删除链表节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer15判断一个单向链表是否形成了环形结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer15判断一个单向链表是否形成了环形结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer15求链表的中间节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer15求链表的中间节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer15链表中倒数第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer15链表中倒数第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer16反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer16反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/Offer5从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/Offer5从尾到头打印链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/NodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/myObject/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/myObject/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Offer5从尾到头打印链表.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Offer5从尾到头打印链表.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="190">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -83,8 +93,8 @@
       <file leaf-file-name="Offer5从尾到头打印链表.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second/Offer5从尾到头打印链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="608">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -117,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NodeUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/NodeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            <state relative-caret-position="2299">
+              <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/myObject/BiTree.java" />
         <option value="$PROJECT_DIR$/src/first/Offer25二叉树中和为某一路径的值.java" />
         <option value="$PROJECT_DIR$/src/second/Offer25二叉树中和为某一路径的值.java" />
         <option value="$PROJECT_DIR$/src/second/Offer26复杂链表的复制.java" />
@@ -225,6 +234,7 @@
         <option value="$PROJECT_DIR$/src/first/util/NodeUtil.java" />
         <option value="$PROJECT_DIR$/src/utils/myObject/Node.java" />
         <option value="$PROJECT_DIR$/src/utils/NodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java" />
       </list>
     </option>
   </component>
@@ -243,7 +253,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -281,13 +291,27 @@
               <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+              <item name="Offer5从尾到头打印链表" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeUtil" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Offer35第一个只出现一次的字符">
+  <component name="RunManager" selected="Application.Offer5从尾到头打印链表">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other.Demo" />
       <module name="剑指Offer" />
@@ -348,17 +372,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Offer35第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second.Offer35第一个只出现一次的字符" />
-      <module name="剑指Offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,6 +416,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Offer5从尾到头打印链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first.Offer5从尾到头打印链表" />
+      <module name="剑指Offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,14 +482,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Offer35第一个只出现一次的字符" />
       <item itemvalue="Application.Offer44扑克牌的顺子 (1)" />
       <item itemvalue="Application.Offer47不用加减乘除做加法" />
       <item itemvalue="Application.Offer48把字符串转换成整数" />
       <item itemvalue="Application.Offer48把字符串转换成整数 (1)" />
+      <item itemvalue="Application.Offer5从尾到头打印链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer5从尾到头打印链表" />
         <item itemvalue="Application.Offer48把字符串转换成整数" />
         <item itemvalue="Application.Offer48把字符串转换成整数 (1)" />
         <item itemvalue="Application.Offer47不用加减乘除做加法" />
@@ -514,12 +539,27 @@
       <workItem from="1564290228435" duration="2891000" />
       <workItem from="1567758518880" duration="614000" />
       <workItem from="1568014141647" duration="810000" />
-      <workItem from="1609403860837" duration="6200000" />
+      <workItem from="1609403860837" duration="7947000" />
     </task>
+    <task id="LOCAL-00001" summary="工具类方法">
+      <created>1609729680743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609729680743</updated>
+    </task>
+    <task id="LOCAL-00002" summary="栈">
+      <created>1609730841249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609730841249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298743000" />
+    <option name="totallyTimeSpent" value="300490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,18 +576,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32770607" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3236559" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.2795699" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.27878788" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32795697" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.43609023" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.18387097" weight="0.3263328" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.18387097" visible="true" weight="0.32618025" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.816129" side_tool="true" weight="0.14872068" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -556,7 +597,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37849462" />
       <window_info id="Favorites" order="6" sideWeight="0.8124138" side_tool="true" weight="0.17803837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3236559" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -601,6 +641,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工具类方法" />
+    <MESSAGE value="栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,17 +822,16 @@
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java</url>
+          <line>22</line>
+          <properties />
+        </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/first/Offer41和为s的两个数字VS和为s的连续正数序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/first/Offer40数组中只出现一次的数字.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -1140,20 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/second/Offer5从尾到头打印链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/myObject/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1173,11 +1203,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/NodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="2299">
+          <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/Offer5从尾到头打印链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/first/Offer5从尾到头打印链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
