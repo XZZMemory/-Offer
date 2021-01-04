@@ -9,14 +9,14 @@ import utils.myObject.Node;
  */
 public class Offer13在O1时间删除链表节点 {
     public static void main(String[] args) {
-        Node head = NodeUtil.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
+        Node head = NodeUtil.createListWithHead(new char[]{'a', 'b', 'c', 'd', 'e'});
         Node p = head.next;
         while (!(p.info == 'e'))
             p = p.next;
         p = null;
-        NodeUtil.traverseList(head);//输出链表信息
+        NodeUtil.traverseListWithHead(head);//输出链表信息
         deleteNode(head, p);
-        NodeUtil.traverseList(head);//输出链表信息
+        NodeUtil.traverseListWithHead(head);//输出链表信息
 
     }
 

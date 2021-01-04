@@ -9,8 +9,8 @@ import utils.myObject.Node;
  */
 public class Offer15判断一个单向链表是否形成了环形结构 {
     public static void main(String[] args) {
-        Node head1 = NodeUtil.creatList(); //无环
-        Node head2 = NodeUtil.creatListCircle();    //有环
+        Node head1 = NodeUtil.createListWithHead(); //无环
+        Node head2 = NodeUtil.createCircularListWithoutHead();    //有环
         System.out.println(isCircle(head1));
         System.out.println(isCircle(head2));
         System.out.println(isCircle(null));

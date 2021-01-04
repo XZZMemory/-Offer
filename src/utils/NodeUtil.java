@@ -2,20 +2,30 @@ package utils;
 
 import utils.myObject.Node;
 
+import java.util.Objects;
+
 /**
+ * 链表工具类
  * created by memory
  * on 2019/6/10 下午8:59
  */
 public class NodeUtil {
-    /* 默认创建的是带头结点的链表，无头结点的函数名中会特殊说明*/
-    public static Node creatList() {
-        char[] string = "abde".toCharArray();
+    /**
+     * 创建无头节点的链表
+     *
+     * @return
+     */
+    public static Node createListWithoutHead(char... charArray) {
+        if (Objects.isNull(charArray) || charArray.length < 1) {
+            charArray = "abde".toCharArray();
+        }
         Node p = new Node();
         Node head = p;
+        head.info = charArray[0];
         Node q;
-        for (int i = 0; i < string.length; i++) {
+        for (int i = 1; i < charArray.length; i++) {
             q = new Node();
-            q.info = string[i];
+            q.info = charArray[i];
             q.next = null;
             p.next = q;
             p = q;
@@ -23,15 +33,22 @@ public class NodeUtil {
         return head;
     }
 
-    public static Node creatListNoHead() {
-        char[] string = "abde".toCharArray();
+    /**
+     * 创建带头节点的链表
+     *
+     * @param charArray
+     * @return
+     */
+    public static Node createListWithHead(char... charArray) {
+        if (Objects.isNull(charArray) || charArray.length < 1) {
+            charArray = "abde".toCharArray();
+        }
         Node p = new Node();
         Node head = p;
-        head.info = string[0];
         Node q;
-        for (int i = 1; i < string.length; i++) {
+        for (int i = 0; i < charArray.length; i++) {
             q = new Node();
-            q.info = string[i];
+            q.info = charArray[i];
             q.next = null;
             p.next = q;
             p = q;
@@ -39,43 +56,22 @@ public class NodeUtil {
         return head;
     }
 
-    public static Node creatListNoHead(char[] string) {
-        Node p = new Node();
-        Node head = p;
-        head.info = string[0];
-        Node q;
-        for (int i = 1; i < string.length; i++) {
-            q = new Node();
-            q.info = string[i];
-            q.next = null;
-            p.next = q;
-            p = q;
+    /**
+     * 创建环形-无头节点链表
+     *
+     * @param charArray
+     * @return
+     */
+    public static Node createCircularListWithoutHead(char... charArray) {
+        if (Objects.isNull(charArray) || charArray.length < 1) {
+            charArray = "abcde".toCharArray();
         }
-        return head;
-    }
-
-    public static Node creatList(char[] data) {
         Node p = new Node();
         Node head = p;
         Node q;
-        for (int i = 0; i < data.length; i++) {
+        for (char info : charArray) {
             q = new Node();
-            q.info = data[i];
-            q.next = null;
-            p.next = q;
-            p = q;
-        }
-        return head;
-    }
-
-    public static Node creatListCircle() {
-        char[] string = "abcde".toCharArray();
-        Node p = new Node();
-        Node head = p;
-        Node q;
-        for (int i = 0; i < string.length; i++) {
-            q = new Node();
-            q.info = string[i];
+            q.info = info;
             q.next = null;
             p.next = q;
             p = q;
@@ -84,7 +80,12 @@ public class NodeUtil {
         return head;
     }
 
-    public static void traverseList(Node head) {
+    /**
+     * 遍历带头结点的链表
+     *
+     * @param head
+     */
+    public static void traverseListWithHead(Node head) {
         if (head == null) {
             System.out.println("链表为空！");
             return;
@@ -101,13 +102,18 @@ public class NodeUtil {
         System.out.println();
     }
 
-    public static void traverseListNoHead(Node head) {
-        if (head == null) {
+    /**
+     * 遍历无头节点的链表
+     *
+     * @param head
+     */
+    public static void traverseListWithoutHead(Node head) {
+        if (Objects.isNull(head)) {
             System.out.println("链表为空!");
             return;
         }
         Node p = head;
-        while (p != null) {
+        while (Objects.nonNull(p)) {
             System.out.print(p.info + " ");
             p = p.next;
         }

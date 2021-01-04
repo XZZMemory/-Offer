@@ -11,9 +11,9 @@ import java.util.Stack;
  */
 public class Offer5从尾到头打印链表 {
     public static void main(String[] args) {
-        Node head = NodeUtil.creatListNoHead();
+        Node head = NodeUtil.createListWithoutHead();
         System.out.println("原始链表信息是：");
-        NodeUtil.traverseListNoHead(head);
+        NodeUtil.traverseListWithoutHead(head);
         System.out.println("利用栈方法从尾到有打印链表信息是：");
         printListReverCircularly(head);
         System.out.println("递归方法从尾到有打印链表信息是：");

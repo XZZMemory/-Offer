@@ -10,8 +10,8 @@ import utils.myObject.Node;
 public class Offer15链表中倒数第k个节点 {
     public static void main(String[] args) {
         char[] data = "12345".toCharArray();
-        Node head = NodeUtil.creatList(data);//创建带头结点的链表
-        NodeUtil.traverseList(head);
+        Node head = NodeUtil.createListWithHead(data);//创建带头结点的链表
+        NodeUtil.traverseListWithHead(head);
         Node lastKNode = lastK(head, 1);
         if (lastKNode == null) {
             System.out.println("找不到节点");

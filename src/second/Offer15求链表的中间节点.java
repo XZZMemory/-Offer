@@ -10,8 +10,8 @@ import utils.myObject.Node;
  */
 public class Offer15求链表的中间节点 {
     public static void main(String[] args) {
-        Node head = NodeUtil.creatList(new char[]{'a', 'b', 'c', 'd', 'e'});
-        NodeUtil.traverseList(head);
+        Node head = NodeUtil.createListWithHead(new char[]{'a', 'b', 'c', 'd', 'e'});
+        NodeUtil.traverseListWithHead(head);
         System.out.println(getMiddle(head).info);
 
     }
